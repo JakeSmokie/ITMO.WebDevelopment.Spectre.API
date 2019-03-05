@@ -1,0 +1,3 @@
+
+Qsquid:S1191"5Use classes from the Java API instead of Sun classes.(Ìêîûÿÿÿÿ
+ƒsquid:UselessImportCheck"ZRemove this unused import 'com.sun.jersey.server.impl.application.DeferredResourceConfig'.(Ìêîûÿÿÿÿ

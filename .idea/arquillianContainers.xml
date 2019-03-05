@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="ArquillianContainersManager">
+    <container containerId="container.arquillian.embedded.glassfish.3.1" name="GlassFish Embedded 3.1">
+      <maven-library groupId="org.jboss.arquillian.container" artifactId="arquillian-glassfish-embedded-3.1" version="RELEASE" />
+    </container>
+    <container containerId="container.arquillian.embedded.open-ejb" name="OpenEJB">
+      <maven-library groupId="org.apache.tomee" artifactId="arquillian-openejb-embedded" version="RELEASE" />
+    </container>
+    <container containerId="container.arquillian.embedded.tomcat.8.x" name="Tomcat Embedded 8.x">
+      <maven-library groupId="org.jboss.arquillian.container" artifactId="arquillian-tomcat-embedded-8" version="RELEASE" />
+    </container>
+    <container containerId="container.arquillian.embedded.tom-ee" name="TomEE Embedded">
+      <maven-library groupId="org.apache.tomee" artifactId="arquillian-tomee-embedded" version="RELEASE" />
+    </container>
+    <container containerId="container.arquillian.embedded.weld.ee.1.1" name="Weld EE Embedded 1.1.x">
+      <maven-library groupId="org.jboss.arquillian.container" artifactId="arquillian-weld-ee-embedded-1.1" version="RELEASE" />
+    </container>
+  </component>
+</project>

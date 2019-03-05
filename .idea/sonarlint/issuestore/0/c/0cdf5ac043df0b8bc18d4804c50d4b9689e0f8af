@@ -1,0 +1,17 @@
+
+U
+squid:S106"9Replace this use of System.out or System.err by a logger.(îäáıÿÿÿÿ
+@squid:S1148Ú"#Use a logger to log this exception.(€ÉÔ…ıÿÿÿÿ
+@squid:S1148Ü"#Use a logger to log this exception.(€ÉÔ…ıÿÿÿÿ
+\squid:S2147Û"ECombine this catch with the one at line 217, which has the same body.(¨µÏ:
+Esquid:S1905q")Remove this unnecessary cast to "String".(ôÓÁüûÿÿÿÿ
+isquid:S2095Ê"LUse try-with-resources or close this "BufferedReader" in a "finally" clause.(ä‡ƒŸıÿÿÿÿ
+dsquid:S2095Á"LUse try-with-resources or close this "BufferedWriter" in a "finally" clause.(†ªãÜ
+Lsquid:S1191"5Use classes from the Java API instead of Sun classes.(×‚ñá
+|squid:S1149Ë"_Replace the synchronized class "StringBuffer" by an unsynchronized one such as "StringBuilder".(íú™§úÿÿÿÿ
+osquid:S3776ˆ"RRefactor this method to reduce its Cognitive Complexity from 16 to the 15 allowed.(Í»Ûÿÿÿÿÿ
+Osquid:S1068W"3Remove this unused "clientQuestions" private field.(·¾€»øÿÿÿÿ
+osquid:S2068<"S'PASSWD' detected in this expression, review this potentially hardcoded credential.(•ç¢øÿÿÿÿ
+Usquid:S1197Ö"8Move the array designator from the variable to the type.(¡şÏÖøÿÿÿÿ
+Asquid:S1481Ø")Remove this unused "main" local variable.(˜¡‹±
+Psquid:S1854Ø"8Remove this useless assignment to local variable "main".(˜¡‹±

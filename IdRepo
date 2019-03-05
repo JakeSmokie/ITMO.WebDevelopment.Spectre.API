@@ -1,0 +1,306 @@
+amSDK:01/22/2019 06:03:25:549 PM MSK: Thread[main,5,main]: TransactionId[unknown]
+Constructing a new instance of SSOTokenManager
+amSDK:01/22/2019 06:03:25:552 PM MSK: Thread[main,5,main]: TransactionId[unknown]
+Obtained Grappa SSO Provider
+amSDK:01/22/2019 06:03:25:617 PM MSK: Thread[main,5,main]: TransactionId[unknown]
+Obtained DPRO SSO Provider
+amSDK:01/22/2019 06:04:30:006 PM MSK: Thread[main,5,main]: TransactionId[unknown]
+Constructing a new instance of SSOTokenManager
+amSDK:01/22/2019 06:04:30:009 PM MSK: Thread[main,5,main]: TransactionId[unknown]
+Obtained Grappa SSO Provider
+amSDK:01/22/2019 06:04:30:017 PM MSK: Thread[main,5,main]: TransactionId[unknown]
+Obtained DPRO SSO Provider
+amIdmClient:01/22/2019 06:06:11:850 PM MSK: Thread[main,5,main]: TransactionId[unknown]
+IdRemoteCachedServicesImpl.getInstance(): Creating new Instance of IdRemoteCachedServicesImpl()
+amIdmClient:01/22/2019 06:06:11:851 PM MSK: Thread[main,5,main]: TransactionId[unknown]
+IdRemoteServicesImpl.<init>: sendRestrictionContext = false
+amIdmClient:01/22/2019 06:06:11:858 PM MSK: Thread[main,5,main]: TransactionId[unknown]
+IdRemoteCachedServicesImpl.intializeParams() Caching size set to: 10000
+amIdmClient:01/22/2019 06:06:11:865 PM MSK: Thread[main,5,main]: TransactionId[unknown]
+WARNING: IdRemoteEventListener: Polling mode DISABLED. com.iplanet.am.sdk.remote.pollingTime=0
+amIdmClient:01/22/2019 06:06:11:925 PM MSK: Thread[main,5,main]: TransactionId[unknown]
+IdRemoteServicesProviderImpl.static{} - Caching Mode: trueUsing implementation Class IdRemoteCachedServicesImpl
+amIdm:01/22/2019 06:06:11:933 PM MSK: Thread[main,5,main]: TransactionId[unknown]
+IdServicesFactory.instantiateImpls() - Successfully initialized Impls Using Impl Package: com.sun.identity.idm.remote for accessing Directory Services
+amIdmClient:01/22/2019 06:06:11:964 PM MSK: Thread[main,5,main]: TransactionId[unknown]
+IdRemoteCachedServicesImpl.getAttributes(): complete attribute set NOT found in cache. Getting from DS.
+amIdmClient:01/22/2019 06:06:12:150 PM MSK: Thread[main,5,main]: TransactionId[unknown]
+IdRemoteCachedServicesImpl.getAttributes(): attributes NOT found in cache. Fetched from DS.
+amIdm:01/22/2019 06:06:12:175 PM MSK: Thread[main,5,main]: TransactionId[unknown]
+AMIdentity.getAttributes all: attrs={uid=[kek], cn=[abcd], inetUserStatus=[Active], givenName=[kek], dn=[uid=kek,ou=people,dc=openam,dc=openidentityplatform,dc=org], createTimestamp=[20190122150550Z], sn=[lal], userPassword=xxx..., objectClass=[iplanet-am-managed-person, inetuser, sunFederationManagerDataStore, sunFMSAML2NameIdentifier, devicePrintProfilesContainer, inetorgperson, sunIdentityServerLibertyPPService, iPlanetPreferences, pushDeviceProfilesContainer, iplanet-am-user-service, forgerock-am-dashboard-service, organizationalperson, top, kbaInfoContainer, sunAMAuthAccountLockout, person, oathDeviceProfilesContainer, iplanet-am-auth-configuration-service]}
+amSDK:01/22/2019 11:32:39:030 PM MSK: Thread[main,5,main]: TransactionId[unknown]
+Constructing a new instance of SSOTokenManager
+amSDK:01/22/2019 11:32:39:032 PM MSK: Thread[main,5,main]: TransactionId[unknown]
+Obtained Grappa SSO Provider
+amSDK:01/22/2019 11:32:39:046 PM MSK: Thread[main,5,main]: TransactionId[unknown]
+Obtained DPRO SSO Provider
+amSDK:01/22/2019 11:33:09:655 PM MSK: Thread[main,5,main]: TransactionId[unknown]
+Constructing a new instance of SSOTokenManager
+amSDK:01/22/2019 11:33:09:659 PM MSK: Thread[main,5,main]: TransactionId[unknown]
+Obtained Grappa SSO Provider
+amSDK:01/22/2019 11:33:09:799 PM MSK: Thread[main,5,main]: TransactionId[unknown]
+Obtained DPRO SSO Provider
+amSDK:01/22/2019 11:33:37:509 PM MSK: Thread[main,5,main]: TransactionId[unknown]
+Constructing a new instance of SSOTokenManager
+amSDK:01/22/2019 11:33:37:510 PM MSK: Thread[main,5,main]: TransactionId[unknown]
+Obtained Grappa SSO Provider
+amSDK:01/22/2019 11:33:37:518 PM MSK: Thread[main,5,main]: TransactionId[unknown]
+Obtained DPRO SSO Provider
+amSDK:01/22/2019 11:34:58:165 PM MSK: Thread[main,5,main]: TransactionId[unknown]
+Constructing a new instance of SSOTokenManager
+amSDK:01/22/2019 11:34:58:168 PM MSK: Thread[main,5,main]: TransactionId[unknown]
+Obtained Grappa SSO Provider
+amSDK:01/22/2019 11:34:58:177 PM MSK: Thread[main,5,main]: TransactionId[unknown]
+Obtained DPRO SSO Provider
+amSDK:01/22/2019 11:35:53:279 PM MSK: Thread[main,5,main]: TransactionId[unknown]
+Constructing a new instance of SSOTokenManager
+amSDK:01/22/2019 11:35:53:281 PM MSK: Thread[main,5,main]: TransactionId[unknown]
+Obtained Grappa SSO Provider
+amSDK:01/22/2019 11:35:53:290 PM MSK: Thread[main,5,main]: TransactionId[unknown]
+Obtained DPRO SSO Provider
+amSDK:01/22/2019 11:37:10:466 PM MSK: Thread[main,5,main]: TransactionId[unknown]
+Constructing a new instance of SSOTokenManager
+amSDK:01/22/2019 11:37:10:468 PM MSK: Thread[main,5,main]: TransactionId[unknown]
+Obtained Grappa SSO Provider
+amSDK:01/22/2019 11:37:10:480 PM MSK: Thread[main,5,main]: TransactionId[unknown]
+Obtained DPRO SSO Provider
+amSDK:01/22/2019 11:38:14:261 PM MSK: Thread[main,5,main]: TransactionId[unknown]
+Constructing a new instance of SSOTokenManager
+amSDK:01/22/2019 11:38:14:264 PM MSK: Thread[main,5,main]: TransactionId[unknown]
+Obtained Grappa SSO Provider
+amSDK:01/22/2019 11:38:14:270 PM MSK: Thread[main,5,main]: TransactionId[unknown]
+Obtained DPRO SSO Provider
+amSDK:01/22/2019 11:40:12:568 PM MSK: Thread[main,5,main]: TransactionId[unknown]
+Constructing a new instance of SSOTokenManager
+amSDK:01/22/2019 11:40:12:572 PM MSK: Thread[main,5,main]: TransactionId[unknown]
+Obtained Grappa SSO Provider
+amSDK:01/22/2019 11:40:12:586 PM MSK: Thread[main,5,main]: TransactionId[unknown]
+Obtained DPRO SSO Provider
+amSDK:01/22/2019 11:40:47:967 PM MSK: Thread[main,5,main]: TransactionId[unknown]
+Constructing a new instance of SSOTokenManager
+amSDK:01/22/2019 11:40:47:970 PM MSK: Thread[main,5,main]: TransactionId[unknown]
+Obtained Grappa SSO Provider
+amSDK:01/22/2019 11:40:47:978 PM MSK: Thread[main,5,main]: TransactionId[unknown]
+Obtained DPRO SSO Provider
+amSDK:01/22/2019 11:47:06:343 PM MSK: Thread[main,5,main]: TransactionId[unknown]
+Constructing a new instance of SSOTokenManager
+amSDK:01/22/2019 11:47:06:346 PM MSK: Thread[main,5,main]: TransactionId[unknown]
+Obtained Grappa SSO Provider
+amSDK:01/22/2019 11:47:06:354 PM MSK: Thread[main,5,main]: TransactionId[unknown]
+Obtained DPRO SSO Provider
+amSDK:01/22/2019 11:57:48:798 PM MSK: Thread[main,5,main]: TransactionId[unknown]
+Constructing a new instance of SSOTokenManager
+amSDK:01/22/2019 11:57:48:799 PM MSK: Thread[main,5,main]: TransactionId[unknown]
+Obtained Grappa SSO Provider
+amSDK:01/22/2019 11:57:48:807 PM MSK: Thread[main,5,main]: TransactionId[unknown]
+Obtained DPRO SSO Provider
+amSDK:01/23/2019 12:03:37:096 AM MSK: Thread[main,5,main]: TransactionId[unknown]
+Constructing a new instance of SSOTokenManager
+amSDK:01/23/2019 12:03:37:098 AM MSK: Thread[main,5,main]: TransactionId[unknown]
+Obtained Grappa SSO Provider
+amSDK:01/23/2019 12:03:37:107 AM MSK: Thread[main,5,main]: TransactionId[unknown]
+Obtained DPRO SSO Provider
+amSDK:01/23/2019 12:05:28:367 AM MSK: Thread[main,5,main]: TransactionId[unknown]
+Constructing a new instance of SSOTokenManager
+amSDK:01/23/2019 12:05:28:369 AM MSK: Thread[main,5,main]: TransactionId[unknown]
+Obtained Grappa SSO Provider
+amSDK:01/23/2019 12:05:28:378 AM MSK: Thread[main,5,main]: TransactionId[unknown]
+Obtained DPRO SSO Provider
+amSDK:01/23/2019 12:06:29:616 AM MSK: Thread[main,5,main]: TransactionId[unknown]
+Constructing a new instance of SSOTokenManager
+amSDK:01/23/2019 12:06:29:617 AM MSK: Thread[main,5,main]: TransactionId[unknown]
+Obtained Grappa SSO Provider
+amSDK:01/23/2019 12:06:29:627 AM MSK: Thread[main,5,main]: TransactionId[unknown]
+Obtained DPRO SSO Provider
+amSDK:01/23/2019 12:06:46:218 AM MSK: Thread[main,5,main]: TransactionId[unknown]
+Constructing a new instance of SSOTokenManager
+amSDK:01/23/2019 12:06:46:220 AM MSK: Thread[main,5,main]: TransactionId[unknown]
+Obtained Grappa SSO Provider
+amSDK:01/23/2019 12:06:46:229 AM MSK: Thread[main,5,main]: TransactionId[unknown]
+Obtained DPRO SSO Provider
+amSDK:01/23/2019 12:08:11:335 AM MSK: Thread[main,5,main]: TransactionId[unknown]
+Constructing a new instance of SSOTokenManager
+amSDK:01/23/2019 12:08:11:336 AM MSK: Thread[main,5,main]: TransactionId[unknown]
+Obtained Grappa SSO Provider
+amSDK:01/23/2019 12:08:11:346 AM MSK: Thread[main,5,main]: TransactionId[unknown]
+Obtained DPRO SSO Provider
+amSDK:01/23/2019 12:11:31:263 AM MSK: Thread[main,5,main]: TransactionId[unknown]
+Constructing a new instance of SSOTokenManager
+amSDK:01/23/2019 12:11:31:265 AM MSK: Thread[main,5,main]: TransactionId[unknown]
+Obtained Grappa SSO Provider
+amSDK:01/23/2019 12:11:31:273 AM MSK: Thread[main,5,main]: TransactionId[unknown]
+Obtained DPRO SSO Provider
+amSDK:01/23/2019 01:08:57:638 AM MSK: Thread[main,5,main]: TransactionId[unknown]
+Constructing a new instance of SSOTokenManager
+amSDK:01/23/2019 01:08:57:640 AM MSK: Thread[main,5,main]: TransactionId[unknown]
+Obtained Grappa SSO Provider
+amSDK:01/23/2019 01:08:57:647 AM MSK: Thread[main,5,main]: TransactionId[unknown]
+Obtained DPRO SSO Provider
+amSDK:01/23/2019 01:09:07:822 AM MSK: Thread[main,5,main]: TransactionId[unknown]
+Constructing a new instance of SSOTokenManager
+amSDK:01/23/2019 01:09:07:823 AM MSK: Thread[main,5,main]: TransactionId[unknown]
+Obtained Grappa SSO Provider
+amSDK:01/23/2019 01:09:07:830 AM MSK: Thread[main,5,main]: TransactionId[unknown]
+Obtained DPRO SSO Provider
+amSDK:01/23/2019 01:24:15:820 AM MSK: Thread[main,5,main]: TransactionId[unknown]
+Constructing a new instance of SSOTokenManager
+amSDK:01/23/2019 01:24:15:821 AM MSK: Thread[main,5,main]: TransactionId[unknown]
+Obtained Grappa SSO Provider
+amSDK:01/23/2019 01:24:15:829 AM MSK: Thread[main,5,main]: TransactionId[unknown]
+Obtained DPRO SSO Provider
+amSDK:01/23/2019 01:25:03:066 AM MSK: Thread[main,5,main]: TransactionId[unknown]
+Constructing a new instance of SSOTokenManager
+amSDK:01/23/2019 01:25:03:068 AM MSK: Thread[main,5,main]: TransactionId[unknown]
+Obtained Grappa SSO Provider
+amSDK:01/23/2019 01:25:03:076 AM MSK: Thread[main,5,main]: TransactionId[unknown]
+Obtained DPRO SSO Provider
+amSDK:01/23/2019 01:26:55:705 AM MSK: Thread[main,5,main]: TransactionId[unknown]
+Constructing a new instance of SSOTokenManager
+amSDK:01/23/2019 01:26:55:707 AM MSK: Thread[main,5,main]: TransactionId[unknown]
+Obtained Grappa SSO Provider
+amSDK:01/23/2019 01:26:55:714 AM MSK: Thread[main,5,main]: TransactionId[unknown]
+Obtained DPRO SSO Provider
+amSDK:01/23/2019 01:27:46:575 AM MSK: Thread[main,5,main]: TransactionId[unknown]
+Constructing a new instance of SSOTokenManager
+amSDK:01/23/2019 01:27:46:577 AM MSK: Thread[main,5,main]: TransactionId[unknown]
+Obtained Grappa SSO Provider
+amSDK:01/23/2019 01:27:46:586 AM MSK: Thread[main,5,main]: TransactionId[unknown]
+Obtained DPRO SSO Provider
+amSDK:01/23/2019 01:58:17:436 AM MSK: Thread[main,5,main]: TransactionId[unknown]
+Constructing a new instance of SSOTokenManager
+amSDK:01/23/2019 01:58:17:437 AM MSK: Thread[main,5,main]: TransactionId[unknown]
+Obtained Grappa SSO Provider
+amSDK:01/23/2019 01:58:17:445 AM MSK: Thread[main,5,main]: TransactionId[unknown]
+Obtained DPRO SSO Provider
+amSDK:01/23/2019 01:59:52:989 AM MSK: Thread[main,5,main]: TransactionId[unknown]
+Constructing a new instance of SSOTokenManager
+amSDK:01/23/2019 01:59:52:991 AM MSK: Thread[main,5,main]: TransactionId[unknown]
+Obtained Grappa SSO Provider
+amSDK:01/23/2019 01:59:52:998 AM MSK: Thread[main,5,main]: TransactionId[unknown]
+Obtained DPRO SSO Provider
+amSDK:01/23/2019 02:02:35:919 AM MSK: Thread[main,5,main]: TransactionId[unknown]
+Constructing a new instance of SSOTokenManager
+amSDK:01/23/2019 02:02:35:921 AM MSK: Thread[main,5,main]: TransactionId[unknown]
+Obtained Grappa SSO Provider
+amSDK:01/23/2019 02:02:35:928 AM MSK: Thread[main,5,main]: TransactionId[unknown]
+Obtained DPRO SSO Provider
+amSDK:01/23/2019 02:03:47:738 AM MSK: Thread[main,5,main]: TransactionId[unknown]
+Constructing a new instance of SSOTokenManager
+amSDK:01/23/2019 02:03:47:740 AM MSK: Thread[main,5,main]: TransactionId[unknown]
+Obtained Grappa SSO Provider
+amSDK:01/23/2019 02:03:47:747 AM MSK: Thread[main,5,main]: TransactionId[unknown]
+Obtained DPRO SSO Provider
+amSDK:01/23/2019 02:03:59:726 AM MSK: Thread[main,5,main]: TransactionId[unknown]
+Constructing a new instance of SSOTokenManager
+amSDK:01/23/2019 02:03:59:727 AM MSK: Thread[main,5,main]: TransactionId[unknown]
+Obtained Grappa SSO Provider
+amSDK:01/23/2019 02:03:59:735 AM MSK: Thread[main,5,main]: TransactionId[unknown]
+Obtained DPRO SSO Provider
+amSDK:01/24/2019 02:03:55:869 AM MSK: Thread[main,5,main]: TransactionId[unknown]
+Constructing a new instance of SSOTokenManager
+amSDK:01/24/2019 02:03:55:886 AM MSK: Thread[main,5,main]: TransactionId[unknown]
+Obtained Grappa SSO Provider
+amSDK:01/24/2019 02:03:55:920 AM MSK: Thread[main,5,main]: TransactionId[unknown]
+Obtained DPRO SSO Provider
+amSDK:01/24/2019 02:04:14:259 AM MSK: Thread[main,5,main]: TransactionId[unknown]
+Constructing a new instance of SSOTokenManager
+amSDK:01/24/2019 02:04:14:261 AM MSK: Thread[main,5,main]: TransactionId[unknown]
+Obtained Grappa SSO Provider
+amSDK:01/24/2019 02:04:14:268 AM MSK: Thread[main,5,main]: TransactionId[unknown]
+Obtained DPRO SSO Provider
+amSDK:01/24/2019 03:49:35:494 PM MSK: Thread[main,5,main]: TransactionId[unknown]
+Constructing a new instance of SSOTokenManager
+amSDK:01/24/2019 03:49:35:783 PM MSK: Thread[main,5,main]: TransactionId[unknown]
+Obtained Grappa SSO Provider
+amSDK:01/24/2019 03:49:35:840 PM MSK: Thread[main,5,main]: TransactionId[unknown]
+Obtained DPRO SSO Provider
+amSDK:01/24/2019 03:54:55:230 PM MSK: Thread[main,5,main]: TransactionId[unknown]
+Constructing a new instance of SSOTokenManager
+amSDK:01/24/2019 03:54:55:232 PM MSK: Thread[main,5,main]: TransactionId[unknown]
+Obtained Grappa SSO Provider
+amSDK:01/24/2019 03:54:55:239 PM MSK: Thread[main,5,main]: TransactionId[unknown]
+Obtained DPRO SSO Provider
+amSDK:01/24/2019 03:55:29:060 PM MSK: Thread[main,5,main]: TransactionId[unknown]
+Constructing a new instance of SSOTokenManager
+amSDK:01/24/2019 03:55:29:061 PM MSK: Thread[main,5,main]: TransactionId[unknown]
+Obtained Grappa SSO Provider
+amSDK:01/24/2019 03:55:29:072 PM MSK: Thread[main,5,main]: TransactionId[unknown]
+Obtained DPRO SSO Provider
+amSDK:01/24/2019 04:04:21:980 PM MSK: Thread[main,5,main]: TransactionId[unknown]
+Constructing a new instance of SSOTokenManager
+amSDK:01/24/2019 04:04:21:982 PM MSK: Thread[main,5,main]: TransactionId[unknown]
+Obtained Grappa SSO Provider
+amSDK:01/24/2019 04:04:21:989 PM MSK: Thread[main,5,main]: TransactionId[unknown]
+Obtained DPRO SSO Provider
+amSDK:01/24/2019 04:10:01:417 PM MSK: Thread[main,5,main]: TransactionId[unknown]
+Constructing a new instance of SSOTokenManager
+amSDK:01/24/2019 04:10:01:439 PM MSK: Thread[main,5,main]: TransactionId[unknown]
+Obtained Grappa SSO Provider
+amSDK:01/24/2019 04:10:01:473 PM MSK: Thread[main,5,main]: TransactionId[unknown]
+Obtained DPRO SSO Provider
+amSDK:02/28/2019 08:49:22:175 PM MSK: Thread[main,5,main]: TransactionId[unknown]
+Constructing a new instance of SSOTokenManager
+amSDK:02/28/2019 08:49:22:194 PM MSK: Thread[main,5,main]: TransactionId[unknown]
+Obtained Grappa SSO Provider
+amSDK:02/28/2019 08:49:22:245 PM MSK: Thread[main,5,main]: TransactionId[unknown]
+Obtained DPRO SSO Provider
+amSDK:02/28/2019 08:49:55:337 PM MSK: Thread[main,5,main]: TransactionId[unknown]
+Constructing a new instance of SSOTokenManager
+amSDK:02/28/2019 08:49:55:340 PM MSK: Thread[main,5,main]: TransactionId[unknown]
+Obtained Grappa SSO Provider
+amSDK:02/28/2019 08:49:55:354 PM MSK: Thread[main,5,main]: TransactionId[unknown]
+Obtained DPRO SSO Provider
+amSDK:02/28/2019 08:51:30:020 PM MSK: Thread[main,5,main]: TransactionId[unknown]
+Constructing a new instance of SSOTokenManager
+amSDK:02/28/2019 08:51:30:023 PM MSK: Thread[main,5,main]: TransactionId[unknown]
+Obtained Grappa SSO Provider
+amSDK:02/28/2019 08:51:30:046 PM MSK: Thread[main,5,main]: TransactionId[unknown]
+Obtained DPRO SSO Provider
+amSDK:02/28/2019 08:56:00:840 PM MSK: Thread[main,5,main]: TransactionId[unknown]
+Constructing a new instance of SSOTokenManager
+amSDK:02/28/2019 08:56:00:871 PM MSK: Thread[main,5,main]: TransactionId[unknown]
+Obtained Grappa SSO Provider
+amSDK:02/28/2019 08:56:00:886 PM MSK: Thread[main,5,main]: TransactionId[unknown]
+Obtained DPRO SSO Provider
+amSDK:02/28/2019 09:16:08:672 PM MSK: Thread[main,5,main]: TransactionId[unknown]
+Constructing a new instance of SSOTokenManager
+amSDK:02/28/2019 09:16:08:675 PM MSK: Thread[main,5,main]: TransactionId[unknown]
+Obtained Grappa SSO Provider
+amSDK:02/28/2019 09:16:08:691 PM MSK: Thread[main,5,main]: TransactionId[unknown]
+Obtained DPRO SSO Provider
+amSDK:02/28/2019 09:20:26:427 PM MSK: Thread[main,5,main]: TransactionId[unknown]
+Constructing a new instance of SSOTokenManager
+amSDK:02/28/2019 09:20:26:430 PM MSK: Thread[main,5,main]: TransactionId[unknown]
+Obtained Grappa SSO Provider
+amSDK:02/28/2019 09:20:26:447 PM MSK: Thread[main,5,main]: TransactionId[unknown]
+Obtained DPRO SSO Provider
+amSDK:03/01/2019 11:50:32:172 AM MSK: Thread[main,5,main]: TransactionId[unknown]
+Constructing a new instance of SSOTokenManager
+amSDK:03/01/2019 11:50:32:175 AM MSK: Thread[main,5,main]: TransactionId[unknown]
+Obtained Grappa SSO Provider
+amSDK:03/01/2019 11:50:32:188 AM MSK: Thread[main,5,main]: TransactionId[unknown]
+Obtained DPRO SSO Provider
+amSDK:03/01/2019 03:11:33:464 PM MSK: Thread[main,5,main]: TransactionId[unknown]
+Constructing a new instance of SSOTokenManager
+amSDK:03/01/2019 03:11:33:501 PM MSK: Thread[main,5,main]: TransactionId[unknown]
+Obtained Grappa SSO Provider
+amSDK:03/01/2019 03:11:33:679 PM MSK: Thread[main,5,main]: TransactionId[unknown]
+Obtained DPRO SSO Provider
+amSDK:03/01/2019 10:54:16:521 PM MSK: Thread[main,5,main]: TransactionId[unknown]
+Constructing a new instance of SSOTokenManager
+amSDK:03/01/2019 10:54:16:524 PM MSK: Thread[main,5,main]: TransactionId[unknown]
+Obtained Grappa SSO Provider
+amSDK:03/01/2019 10:54:16:540 PM MSK: Thread[main,5,main]: TransactionId[unknown]
+Obtained DPRO SSO Provider
+amSDK:03/01/2019 10:55:17:291 PM MSK: Thread[main,5,main]: TransactionId[unknown]
+Constructing a new instance of SSOTokenManager
+amSDK:03/01/2019 10:55:17:295 PM MSK: Thread[main,5,main]: TransactionId[unknown]
+Obtained Grappa SSO Provider
+amSDK:03/01/2019 10:55:17:312 PM MSK: Thread[main,5,main]: TransactionId[unknown]
+Obtained DPRO SSO Provider
+amSDK:03/01/2019 10:55:33:442 PM MSK: Thread[main,5,main]: TransactionId[unknown]
+Constructing a new instance of SSOTokenManager
+amSDK:03/01/2019 10:55:33:446 PM MSK: Thread[main,5,main]: TransactionId[unknown]
+Obtained Grappa SSO Provider
+amSDK:03/01/2019 10:55:33:461 PM MSK: Thread[main,5,main]: TransactionId[unknown]
+Obtained DPRO SSO Provider

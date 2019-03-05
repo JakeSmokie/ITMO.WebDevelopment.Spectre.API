@@ -1,0 +1,150 @@
+amAuthContext:03/01/2019 10:57:53:028 PM MSK: Thread[main,5,main]: TransactionId[unknown]
+ERROR: Failed to obtain auth service url from server: http://openam.example.com:8080
+amAuthContext:03/01/2019 11:00:41:129 PM MSK: Thread[main,5,main]: TransactionId[unknown]
+ERROR: Failed to obtain auth service url from server: http://openam.example.com:8080
+amAuthContext:03/01/2019 11:00:48:919 PM MSK: Thread[main,5,main]: TransactionId[unknown]
+ERROR: Failed to obtain auth service url from server: http://openam.example.com:8080
+amAuthContext:03/01/2019 11:00:55:954 PM MSK: Thread[main,5,main]: TransactionId[unknown]
+ERROR: Failed to obtain auth service url from server: http://openam.example.com:8080
+amAuthContext:03/01/2019 11:02:26:829 PM MSK: Thread[main,5,main]: TransactionId[unknown]
+ERROR: Failed to obtain auth service url from server: http://openam.example.com:8080
+amAuthContext:03/01/2019 11:02:42:711 PM MSK: Thread[main,5,main]: TransactionId[unknown]
+ERROR: Failed to obtain auth service url from server: http://openam.example.com:8080
+amAuthContext:03/01/2019 11:03:52:827 PM MSK: Thread[main,5,main]: TransactionId[unknown]
+ERROR: Failed to obtain auth service url from server: http://openam.example.com:8080
+amAuthContext:03/03/2019 01:31:22:966 PM MSK: Thread[main,5,main]: TransactionId[unknown]
+ERROR: Failed to obtain auth service url from server: http://localhost:8080
+amAuthContext:03/03/2019 01:31:23:027 PM MSK: Thread[main,5,main]: TransactionId[unknown]
+Org Name : /spectre
+amAuthContext:03/03/2019 01:31:23:031 PM MSK: Thread[main,5,main]: TransactionId[unknown]
+ssoTokenID: null
+amAuthContext:03/03/2019 01:31:23:037 PM MSK: Thread[main,5,main]: TransactionId[unknown]
+serviceURLs: [http://localhost:8080/openam/authservice]
+amAuthContext:03/03/2019 01:31:23:042 PM MSK: Thread[main,5,main]: TransactionId[unknown]
+in setLocalFlag(), url : http://localhost:8080
+amAuthContext:03/03/2019 01:31:23:086 PM MSK: Thread[main,5,main]: TransactionId[unknown]
+AuthContext.localAuthServiceID : null
+amAuthContext:03/03/2019 01:31:24:751 PM MSK: Thread[main,5,main]: TransactionId[unknown]
+AuthContext.login : runLogin against http://localhost:8080/openam/authservice
+amAuthContext:03/03/2019 01:31:24:751 PM MSK: Thread[main,5,main]: TransactionId[unknown]
+in setLocalFlag(), url : http://localhost:8080
+amAuthContext:03/03/2019 01:31:24:757 PM MSK: Thread[main,5,main]: TransactionId[unknown]
+AuthContext.localAuthServiceID : null
+amAuthContext:03/03/2019 01:31:24:762 PM MSK: Thread[main,5,main]: TransactionId[unknown]
+Not including req/res false
+amAuthContext:03/03/2019 01:31:24:768 PM MSK: Thread[main,5,main]: TransactionId[unknown]
+Service URL : http://localhost:8080/openam/authservice
+amAuthContext:03/03/2019 01:31:24:939 PM MSK: Thread[main,5,main]: TransactionId[unknown]
+useNewStyleRemoteAuthentication : false
+amAuthContext:03/03/2019 01:31:24:945 PM MSK: Thread[main,5,main]: TransactionId[unknown]
+useOldStyleRemoteAuthentication : false
+amAuthContext:03/03/2019 01:31:24:951 PM MSK: Thread[main,5,main]: TransactionId[unknown]
+receivedDocument : [#document: null]
+amAuthContext:03/03/2019 01:31:24:956 PM MSK: Thread[main,5,main]: TransactionId[unknown]
+loginException : null
+amAuthXMLUtils:03/03/2019 01:31:25:030 PM MSK: Thread[main,5,main]: TransactionId[unknown]
+Callbacks length is : 2
+amAuthXMLUtils:03/03/2019 01:31:25:119 PM MSK: Thread[main,5,main]: TransactionId[unknown]
+Value is : null
+amAuthXMLUtils:03/03/2019 01:31:25:127 PM MSK: Thread[main,5,main]: TransactionId[unknown]
+Callbacks length is : 2
+amAuthXMLUtils:03/03/2019 01:31:25:133 PM MSK: Thread[main,5,main]: TransactionId[unknown]
+Value is : null
+amAuthContext:03/03/2019 01:31:25:139 PM MSK: Thread[main,5,main]: TransactionId[unknown]
+submitRequirements with Callbacks : [Ljavax.security.auth.callback.Callback;@14e1a0f
+amAuthContext:03/03/2019 01:31:25:182 PM MSK: Thread[main,5,main]: TransactionId[unknown]
+Service URL : http://localhost:8080/openam/authservice
+amAuthContext:03/03/2019 01:31:25:316 PM MSK: Thread[main,5,main]: TransactionId[unknown]
+LoginStatus : success
+amAuthContext:03/03/2019 01:31:25:635 PM MSK: Thread[main,5,main]: TransactionId[unknown]
+Obtained App Token= AQIC5wM2LY4SfcyEGTnGdb3QI04W-HmjskF7Bg1Zelb13cQ.*AAJTSQACMDEAAlNLABMzNDc3ODI1MTY3ODkzODQwNzg2AAJTMQAA*
+amAuthContext:03/03/2019 01:31:25:642 PM MSK: Thread[main,5,main]: TransactionId[unknown]
+Not including req/res false
+amAuthContext:03/03/2019 01:31:25:649 PM MSK: Thread[main,5,main]: TransactionId[unknown]
+Service URL : http://localhost:8080/openam/authservice
+amAuthContext:03/03/2019 01:31:25:750 PM MSK: Thread[main,5,main]: TransactionId[unknown]
+useNewStyleRemoteAuthentication : true
+amAuthContext:03/03/2019 01:31:25:758 PM MSK: Thread[main,5,main]: TransactionId[unknown]
+useOldStyleRemoteAuthentication : false
+amAuthContext:03/03/2019 01:31:25:766 PM MSK: Thread[main,5,main]: TransactionId[unknown]
+receivedDocument : [#document: null]
+amAuthContext:03/03/2019 01:31:25:772 PM MSK: Thread[main,5,main]: TransactionId[unknown]
+loginException : null
+amAuthXMLUtils:03/03/2019 01:31:25:783 PM MSK: Thread[main,5,main]: TransactionId[unknown]
+Callbacks length is : 3
+amAuthXMLUtils:03/03/2019 01:31:25:791 PM MSK: Thread[main,5,main]: TransactionId[unknown]
+Value is : null
+amAuthContext:03/03/2019 01:32:15:012 PM MSK: Thread[main,5,main]: TransactionId[unknown]
+submitRequirements with Callbacks : [Ljavax.security.auth.callback.Callback;@39ac6
+amAuthContext:03/03/2019 01:32:15:013 PM MSK: Thread[main,5,main]: TransactionId[unknown]
+Service URL : http://localhost:8080/openam/authservice
+amAuthContext:03/03/2019 01:32:15:489 PM MSK: Thread[main,5,main]: TransactionId[unknown]
+LoginStatus : success
+amAuthContext:03/05/2019 03:48:43:968 PM MSK: Thread[main,5,main]: TransactionId[unknown]
+ERROR: Failed to obtain auth service url from server: http://jakesmokie.ru:10001
+amAuthContext:03/05/2019 03:48:44:030 PM MSK: Thread[main,5,main]: TransactionId[unknown]
+Org Name : /spectre
+amAuthContext:03/05/2019 03:48:44:036 PM MSK: Thread[main,5,main]: TransactionId[unknown]
+ssoTokenID: null
+amAuthContext:03/05/2019 03:48:44:042 PM MSK: Thread[main,5,main]: TransactionId[unknown]
+serviceURLs: [http://jakesmokie.ru:10001/openam/authservice]
+amAuthContext:03/05/2019 03:48:44:049 PM MSK: Thread[main,5,main]: TransactionId[unknown]
+in setLocalFlag(), url : http://jakesmokie.ru:10001
+amAuthContext:03/05/2019 03:48:44:055 PM MSK: Thread[main,5,main]: TransactionId[unknown]
+AuthContext.localAuthServiceID : null
+amAuthContext:03/05/2019 03:48:44:619 PM MSK: Thread[main,5,main]: TransactionId[unknown]
+AuthContext.login : runLogin against http://jakesmokie.ru:10001/openam/authservice
+amAuthContext:03/05/2019 03:48:44:620 PM MSK: Thread[main,5,main]: TransactionId[unknown]
+in setLocalFlag(), url : http://jakesmokie.ru:10001
+amAuthContext:03/05/2019 03:48:44:631 PM MSK: Thread[main,5,main]: TransactionId[unknown]
+AuthContext.localAuthServiceID : null
+amAuthContext:03/05/2019 03:48:44:636 PM MSK: Thread[main,5,main]: TransactionId[unknown]
+Not including req/res false
+amAuthContext:03/05/2019 03:48:44:642 PM MSK: Thread[main,5,main]: TransactionId[unknown]
+Service URL : http://jakesmokie.ru:10001/openam/authservice
+amAuthContext:03/05/2019 03:48:44:791 PM MSK: Thread[main,5,main]: TransactionId[unknown]
+useNewStyleRemoteAuthentication : false
+amAuthContext:03/05/2019 03:48:44:796 PM MSK: Thread[main,5,main]: TransactionId[unknown]
+useOldStyleRemoteAuthentication : false
+amAuthContext:03/05/2019 03:48:44:802 PM MSK: Thread[main,5,main]: TransactionId[unknown]
+receivedDocument : [#document: null]
+amAuthContext:03/05/2019 03:48:44:807 PM MSK: Thread[main,5,main]: TransactionId[unknown]
+loginException : null
+amAuthXMLUtils:03/05/2019 03:48:44:817 PM MSK: Thread[main,5,main]: TransactionId[unknown]
+Callbacks length is : 2
+amAuthXMLUtils:03/05/2019 03:48:44:823 PM MSK: Thread[main,5,main]: TransactionId[unknown]
+Value is : null
+amAuthXMLUtils:03/05/2019 03:48:44:828 PM MSK: Thread[main,5,main]: TransactionId[unknown]
+Callbacks length is : 2
+amAuthXMLUtils:03/05/2019 03:48:44:833 PM MSK: Thread[main,5,main]: TransactionId[unknown]
+Value is : null
+amAuthContext:03/05/2019 03:48:44:839 PM MSK: Thread[main,5,main]: TransactionId[unknown]
+submitRequirements with Callbacks : [Ljavax.security.auth.callback.Callback;@18c1321
+amAuthContext:03/05/2019 03:48:44:845 PM MSK: Thread[main,5,main]: TransactionId[unknown]
+Service URL : http://jakesmokie.ru:10001/openam/authservice
+amAuthContext:03/05/2019 03:48:45:021 PM MSK: Thread[main,5,main]: TransactionId[unknown]
+LoginStatus : success
+amAuthContext:03/05/2019 03:48:45:240 PM MSK: Thread[main,5,main]: TransactionId[unknown]
+Obtained App Token= AQIC5wM2LY4SfcwP0VWgS6fnZCn3Y3OkRjAkzHPAkB0_P60.*AAJTSQACMDEAAlNLABQtNDY2NjUxMTQwMDYxMDk5MTA4NQACUzEAAA..*
+amAuthContext:03/05/2019 03:48:45:247 PM MSK: Thread[main,5,main]: TransactionId[unknown]
+Not including req/res false
+amAuthContext:03/05/2019 03:48:45:252 PM MSK: Thread[main,5,main]: TransactionId[unknown]
+Service URL : http://jakesmokie.ru:10001/openam/authservice
+amAuthContext:03/05/2019 03:48:45:423 PM MSK: Thread[main,5,main]: TransactionId[unknown]
+useNewStyleRemoteAuthentication : true
+amAuthContext:03/05/2019 03:48:45:428 PM MSK: Thread[main,5,main]: TransactionId[unknown]
+useOldStyleRemoteAuthentication : false
+amAuthContext:03/05/2019 03:48:45:433 PM MSK: Thread[main,5,main]: TransactionId[unknown]
+receivedDocument : [#document: null]
+amAuthContext:03/05/2019 03:48:45:438 PM MSK: Thread[main,5,main]: TransactionId[unknown]
+loginException : null
+amAuthXMLUtils:03/05/2019 03:48:45:443 PM MSK: Thread[main,5,main]: TransactionId[unknown]
+Callbacks length is : 3
+amAuthXMLUtils:03/05/2019 03:48:45:448 PM MSK: Thread[main,5,main]: TransactionId[unknown]
+Value is : null
+amAuthContext:03/05/2019 03:48:50:007 PM MSK: Thread[main,5,main]: TransactionId[unknown]
+submitRequirements with Callbacks : [Ljavax.security.auth.callback.Callback;@2b2c86
+amAuthContext:03/05/2019 03:48:50:013 PM MSK: Thread[main,5,main]: TransactionId[unknown]
+Service URL : http://jakesmokie.ru:10001/openam/authservice
+amAuthContext:03/05/2019 03:48:50:273 PM MSK: Thread[main,5,main]: TransactionId[unknown]
+LoginStatus : success
