@@ -2,219 +2,282 @@
 <project version="4">
   <component name="ArtifactsWorkspaceSettings">
     <artifacts-to-build>
-      <artifact name="sp" />
+      <artifact name="spectre_back" />
     </artifacts-to-build>
   </component>
   <component name="ChangeListManager">
     <list default="true" id="a72aeed6-6e3c-48ac-a9ce-1096f20799e1" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/.idea/arquillianContainers.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/artifacts/sp.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/checkstyle-idea.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/compiler.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/dataSources.local.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/dataSources.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/dataSources/ec1a4515-e656-49e7-85c8-c35a8ffa4aa3.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/dataSources/ec1a4515-e656-49e7-85c8-c35a8ffa4aa3/storage_v2/_src_/database/postgres.edMnLQ.meta" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/dataSources/ec1a4515-e656-49e7-85c8-c35a8ffa4aa3/storage_v2/_src_/database/postgres.edMnLQ/schema/public.abK9xQ.meta" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/dataSources/ffeeb052-4028-42a1-9a3e-b5e400b21be4.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/dataSources/ffeeb052-4028-42a1-9a3e-b5e400b21be4/storage_v2/_src_/database/postgres.edMnLQ.meta" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/dataSources/ffeeb052-4028-42a1-9a3e-b5e400b21be4/storage_v2/_src_/database/postgres.edMnLQ/schema/public.abK9xQ.meta" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/dataSources/ffeeb052-4028-42a1-9a3e-b5e400b21be4/storage_v2/_src_/database/postgres.edMnLQ/schema/test.kkQ2AA.meta" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__com_google_code_gson_gson_2_8_5.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__com_sun_jersey_jersey_core_1_19_4.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__com_sun_jersey_jersey_server_1_19_4.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__javax_annotation_javax_annotation_api_1_2.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__javax_json_javax_json_api_1_1_2.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__javax_validation_validation_api_2_0_1_Final.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__javax_ws_rs_javax_ws_rs_api_2_0_1.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__javax_ws_rs_jsr311_api_1_1_1.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__junit_junit_4_12.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_eclipse_persistence_commonj_sdo_2_1_1.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_eclipse_persistence_eclipselink_2_7_3.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_eclipse_persistence_javax_persistence_2_2_1.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_eclipse_persistence_org_eclipse_persistence_asm_2_6_0.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_eclipse_persistence_org_eclipse_persistence_core_2_6_0.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_eclipse_persistence_org_eclipse_persistence_moxy_2_6_0.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_glassfish_hk2_external_aopalliance_repackaged_2_4_0_b31.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_glassfish_hk2_external_javax_inject_2_4_0_b31.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_glassfish_hk2_hk2_api_2_4_0_b31.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_glassfish_hk2_hk2_locator_2_4_0_b31.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_glassfish_hk2_hk2_utils_2_4_0_b31.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_glassfish_hk2_osgi_resource_locator_1_0_1.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_glassfish_javax_json_1_0_4.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_glassfish_jersey_bundles_repackaged_jersey_guava_2_21.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_glassfish_jersey_containers_jersey_container_servlet_2_21.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_glassfish_jersey_containers_jersey_container_servlet_core_2_21.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_glassfish_jersey_core_jersey_client_2_21.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_glassfish_jersey_core_jersey_common_2_21.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_glassfish_jersey_core_jersey_server_2_21.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_glassfish_jersey_ext_jersey_entity_filtering_2_21.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_glassfish_jersey_media_jersey_media_jaxb_2_21.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_glassfish_jersey_media_jersey_media_moxy_2_21.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_hamcrest_hamcrest_core_1_3.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_javassist_javassist_3_18_1_GA.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_postgresql_postgresql_42_1_4.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_projectlombok_lombok_1_18_2.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/libraries/lib.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/modules.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/sonarlint/issuestore/0/c/0cdf5ac043df0b8bc18d4804c50d4b9689e0f8af" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/sonarlint/issuestore/1/3/1337d72a3b1928dba82aa5210f5cdc0e88ce895b" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/sonarlint/issuestore/1/7/17dcbce47cb27abfe5393caf8bd961efcbb14039" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/sonarlint/issuestore/1/a/1aee75c503beb1f5cac8a78915c128657d12441c" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/sonarlint/issuestore/2/b/2b5c92ef7eb5a9cd9361eac360e5cdfb46d92247" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/sonarlint/issuestore/2/e/2e22b6edd746fa3dc40ad7276c87c8d87d72a392" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/sonarlint/issuestore/2/e/2eaa669c19441e31157fe168a4e1a745dcca45f7" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/sonarlint/issuestore/3/5/3534adb20dfc50d7228f297070ed6b38f1a65152" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/sonarlint/issuestore/3/5/35382b30b05535eae2b36057cf41cc2e73a22e6c" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/sonarlint/issuestore/3/6/36c3b4ccfd4476096eff84d571b846b422b4f43e" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/sonarlint/issuestore/3/b/3b33f1232b806507110dfa0f0acb411ad5298f1e" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/sonarlint/issuestore/3/b/3bc05faa95cf4e428049f8a702e36f2158650426" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/sonarlint/issuestore/4/4/442292b8a7efeabbe4cc176709b833b1792140ec" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/sonarlint/issuestore/5/6/5686519dd8d973392cd97f0e3482d70f5c411c54" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/sonarlint/issuestore/7/5/754164850f38c1ecdaf6b8ed894cb192bc36c5f4" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/sonarlint/issuestore/7/d/7ddf3ce33d26d7a656ef2ef8b835e998e7398b3b" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/sonarlint/issuestore/7/f/7f9d2c15bc96b962c54b66287fe5a4414c184ff0" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/sonarlint/issuestore/8/8/88b364b0e86bef33e67368b5259354caea28391d" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/sonarlint/issuestore/9/7/97085cba9ce62f4a2ce606dd5ca7209341270e8f" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/sonarlint/issuestore/9/a/9a878d1685d203119b5c486784fe0101b8511732" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/sonarlint/issuestore/9/b/9bda52f536a1c2210445f9abc9c4416dc152e788" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/sonarlint/issuestore/9/c/9c91a544feaa6314b180a2b363545d72e43df5bf" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/sonarlint/issuestore/9/e/9e16ec5e434a34726551e94de8642fcf08226120" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/sonarlint/issuestore/a/2/a26bbb9fe0ab4d2eccfe40c76195b76b95827b3f" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/sonarlint/issuestore/a/2/a2d72d2920ec55de6a80fad210d65b17d76e57c8" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/sonarlint/issuestore/a/8/a83a7ad039f378581b79a34c9e91ed365f688a4d" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/sonarlint/issuestore/a/d/add9d5218482baeb4e7438487cc8eff8dbd0c510" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/sonarlint/issuestore/b/0/b0ffcd214789b6412d7d3d131bd446d41e7909b4" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/sonarlint/issuestore/b/a/bac65426fcea56704ec215439b270526cd80d0f4" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/sonarlint/issuestore/c/9/c9d76cc3b3a5fd8ec0e717261aec4c1eeb8a6532" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/sonarlint/issuestore/d/d/ddcc5df6f9380bb48fd1688163e9ca45163f39b2" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/sonarlint/issuestore/e/2/e2de15b1dd4ba58705924db6607f75254cc8a5a7" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/sonarlint/issuestore/e/e/ee1acfa55eb1476c86c5c4a68f256a67b25289ab" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/sonarlint/issuestore/f/3/f332f8a6ecb85d8a6551d6c94cd7ae848c29e410" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/sonarlint/issuestore/f/7/f7f1997c6cd1aa051279675742272a956e7db628" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/sonarlint/issuestore/index.pb" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/uiDesigner.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/vcs.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/IdRepo" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/META-INF/MANIFEST.MF" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/back.iml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/lib/ClientSDK-14.1.14.jar" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/lib/FastInfoset-1.2.13.jar" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/lib/animal-sniffer-annotations-1.14.jar" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/lib/assertj-core-2.4.1.jar" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/lib/commons-codec-1.6.jar" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/lib/commons-logging-1.1.3.jar" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/lib/error_prone_annotations-2.0.18.jar" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/lib/gmbal-3.1.0-b001.jar" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/lib/gmbal-api-only-3.1.0-b001.jar" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/lib/guava-23.2-android.jar" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/lib/ha-api-3.1.9.jar" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/lib/istack-commons-runtime-3.0.5.jar" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/lib/j2objc-annotations-1.1.jar" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/lib/javax.annotation-api-1.3.jar" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/lib/javax.persistence.jar" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/lib/javax.security.auth.message-api-1.1.jar" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/lib/javax.servlet-api-3.0.1.jar" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/lib/javax.xml.rpc-api-1.1.jar" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/lib/javax.xml.soap-api-1.4.0.jar" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/lib/jaxb-api-2.3.0.jar" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/lib/jaxb-core-2.3.0.jar" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/lib/jaxb-impl-2.3.0.jar" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/lib/jaxb1-impl-2.2.4-1.jar" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/lib/jaxrpc-api-1.1.jar" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/lib/jaxrpc-impl-1.1.3_01.jar" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/lib/jaxrpc-spi-1.1.3_01.jar" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/lib/jaxws-api-2.3.0.jar" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/lib/jaxws-rt-2.3.0.jar" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/lib/jsr181-api-1.0-MR1.jar" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/lib/jsr305-3.0.0.jar" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/lib/kerberos-wss-extension-1.0.jar" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/lib/mail-1.4.7.jar" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/lib/management-api-3.2.1-b001.jar" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/lib/metro-cm-api-2.4.0.jar" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/lib/metro-commons-2.4.0.jar" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/lib/metro-config-api-2.4.0.jar" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/lib/metro-runtime-api-2.4.0.jar" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/lib/mimepull-1.9.7.jar" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/lib/policy-2.7.2.jar" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/lib/resolver-20050927.jar" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/lib/saaj-impl-1.3.19.jar" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/lib/saml-jaxb10-bindings-1.0.jar" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/lib/slf4j-api-1.7.25.jar" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/lib/soaptcp-api-2.4.0.jar" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/lib/stax-api-1.0-2.jar" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/lib/stax-ex-1.7.8.jar" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/lib/stax2-api-3.1.4.jar" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/lib/streambuffer-1.5.4.jar" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/lib/woodstox-core-asl-4.4.1.jar" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/lib/wsit-api-2.4.0.jar" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/lib/wsit-impl-2.4.0.jar" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/lib/wsmc-api-2.4.0.jar" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/lib/wsrm-api-2.4.0.jar" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/lib/wssx-api-2.4.0.jar" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/lib/wstx-api-2.4.0.jar" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/lib/xmlsec-2.1.0.jar" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/out/artifacts/back/META-INF/MANIFEST.MF" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/out/artifacts/back/WEB-INF/classes/AMConfig.properties" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/out/artifacts/back/WEB-INF/classes/AMConfig.properties.template" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/out/artifacts/back/WEB-INF/classes/META-INF/back.kotlin_module" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/out/artifacts/back/WEB-INF/classes/META-INF/persistence.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/out/artifacts/back/WEB-INF/classes/policyEvaluationSample.properties" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/out/artifacts/back/WEB-INF/classes/ru/jakesmokie/spectre/CommandLineSSO.class" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/out/artifacts/back/WEB-INF/classes/ru/jakesmokie/spectre/SetupClientSDKSamples.class" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/out/artifacts/back/WEB-INF/classes/ru/jakesmokie/spectre/beans/AuthenticationService.class" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/out/artifacts/back/WEB-INF/classes/ru/jakesmokie/spectre/beans/DatabaseService.class" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/out/artifacts/back/WEB-INF/classes/ru/jakesmokie/spectre/entities/DangerLevel.class" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/out/artifacts/back/WEB-INF/classes/ru/jakesmokie/spectre/entities/Planet.class" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/out/artifacts/back/WEB-INF/classes/ru/jakesmokie/spectre/entities/Race.class" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/out/artifacts/back/WEB-INF/classes/ru/jakesmokie/spectre/entities/RaceAtPlanet.class" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/out/artifacts/back/WEB-INF/classes/ru/jakesmokie/spectre/entities/Station.class" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/out/artifacts/back/WEB-INF/classes/ru/jakesmokie/spectre/entities/Story.class" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/out/artifacts/back/WEB-INF/classes/ru/jakesmokie/spectre/entities/Tourist.class" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/out/artifacts/back/WEB-INF/classes/ru/jakesmokie/spectre/entities/Travel.class" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/out/artifacts/back/WEB-INF/classes/ru/jakesmokie/spectre/exceptions/InvalidTokenException.class" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/out/artifacts/back/WEB-INF/classes/ru/jakesmokie/spectre/filters/CORSFilter$1.class" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/out/artifacts/back/WEB-INF/classes/ru/jakesmokie/spectre/filters/CORSFilter$CORSRequestType.class" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/out/artifacts/back/WEB-INF/classes/ru/jakesmokie/spectre/filters/CORSFilter.class" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/out/artifacts/back/WEB-INF/classes/ru/jakesmokie/spectre/listeners/DatabaseServletContextListener.class" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/out/artifacts/back/WEB-INF/classes/ru/jakesmokie/spectre/restapi/SomeResource.class" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/out/artifacts/back/WEB-INF/classes/ru/jakesmokie/spectre/restapi/auth/AuthenticationResource.class" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/out/artifacts/back/WEB-INF/classes/ru/jakesmokie/spectre/restapi/auth/IsAuthorizedResponse.class" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/out/artifacts/back/WEB-INF/classes/ru/jakesmokie/spectre/restapi/auth/LoginResponse.class" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/out/artifacts/back/WEB-INF/classes/ru/jakesmokie/spectre/restapi/keykeepers/planets/PlanetAddingParameters.class" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/out/artifacts/back/WEB-INF/classes/ru/jakesmokie/spectre/restapi/keykeepers/planets/PlanetsResource.class" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/out/artifacts/back/WEB-INF/classes/ru/jakesmokie/spectre/restapi/keykeepers/races/RacesAddingParameters.class" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/out/artifacts/back/WEB-INF/classes/ru/jakesmokie/spectre/restapi/keykeepers/races/RacesResource.class" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/out/artifacts/back/WEB-INF/classes/xacmlClientSample.properties" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/out/artifacts/back/WEB-INF/lib/activation-1.1.jar" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/out/artifacts/back/WEB-INF/lib/commonj.sdo-2.1.1.jar" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/out/artifacts/back/WEB-INF/lib/eclipselink-2.7.3.jar" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/out/artifacts/back/WEB-INF/lib/gson-2.8.5.jar" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/out/artifacts/back/WEB-INF/lib/javaee-api-8.0.jar" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/out/artifacts/back/WEB-INF/lib/javax.json-api-1.1.2.jar" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/out/artifacts/back/WEB-INF/lib/javax.mail-1.6.0.jar" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/out/artifacts/back/WEB-INF/lib/javax.persistence-2.2.1.jar" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/out/artifacts/back/WEB-INF/lib/javax.servlet-api-4.0.1.jar" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/out/artifacts/back/WEB-INF/lib/jersey-bundle-1.19.4.jar" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/out/artifacts/back/WEB-INF/lib/jersey-core-1.19.4.jar" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/out/artifacts/back/WEB-INF/lib/jersey-server-1.19.4.jar" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/out/artifacts/back/WEB-INF/lib/jsr311-api-1.1.1.jar" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/out/artifacts/back/WEB-INF/lib/openam-clientsdk-14.1.14.jar" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/out/artifacts/back/WEB-INF/lib/postgresql-42.1.4.jar" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/out/artifacts/back/WEB-INF/lib/validation-api-2.0.1.Final.jar" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/out/artifacts/sp/WEB-INF/classes/META-INF/persistence.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/out/artifacts/sp/WEB-INF/classes/ru/jakesmokie/spectre/CommandLineSSO.class" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/out/artifacts/sp/WEB-INF/classes/ru/jakesmokie/spectre/SetupClientSDKSamples.class" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/out/artifacts/sp/WEB-INF/classes/ru/jakesmokie/spectre/beans/AuthenticationService.class" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/out/artifacts/sp/WEB-INF/classes/ru/jakesmokie/spectre/beans/DatabaseService.class" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/out/artifacts/sp/WEB-INF/classes/ru/jakesmokie/spectre/entities/DangerLevel.class" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/out/artifacts/sp/WEB-INF/classes/ru/jakesmokie/spectre/entities/Planet.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/artifacts/spectre_back.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__com_fasterxml_jackson_core_jackson_annotations_2_8_10.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__com_fasterxml_jackson_core_jackson_core_2_8_10.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__com_fasterxml_jackson_core_jackson_databind_2_8_10.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__com_fasterxml_jackson_module_jackson_module_jaxb_annotations_2_8_10.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__com_sun_jersey_jersey_bundle_1_19_4.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__commons_beanutils_commons_beanutils_core_1_8_3.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__commons_codec_commons_codec_1_2.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__commons_collections_commons_collections_3_2_2.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__commons_configuration_commons_configuration_1_10.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__commons_fileupload_commons_fileupload_1_3_1.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__commons_httpclient_commons_httpclient_3_1.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__commons_io_commons_io_2_2.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__commons_lang_commons_lang_2_6.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__commons_logging_commons_logging_1_1_1.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__log4j_log4j_1_2_17.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__net_sourceforge_nekohtml_nekohtml_1_9_16.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_apache_xmlgraphics_batik_css_1_8.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_apache_xmlgraphics_batik_ext_1_8.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_apache_xmlgraphics_batik_util_1_8.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_beanshell_bsh_core_2_0b4.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_owasp_antisamy_antisamy_1_5_3.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_owasp_esapi_esapi_2_1_0_1.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__xalan_xalan_2_7_0.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__xerces_xercesImpl_2_8_0.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__xml_apis_xml_apis_1_3_03.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__xml_apis_xml_apis_ext_1_3_04.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__xom_xom_1_2_5.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/spectre/pom.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/spectre/spectre.iml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/spectre/src/main/java/ru/jakesmokie/spectre/HelloWorld.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/spectre/src/main/java/ru/jakesmokie/spectre/restapi/auth/entities/LoginResponse.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/spectre/src/main/webapp/META-INF/MANIFEST.MF" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/spectre/src/main/webapp/WEB-INF/web.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/spectre/web/WEB-INF/web.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/artifacts/sp.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/compiler.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/compiler.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/dataSources.local.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/dataSources.local.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/dataSources/ec1a4515-e656-49e7-85c8-c35a8ffa4aa3.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/dataSources/ec1a4515-e656-49e7-85c8-c35a8ffa4aa3.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/libraries/Maven__javax_ws_rs_javax_ws_rs_api_2_0_1.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/libraries/Maven__javax_ws_rs_javax_ws_rs_api_2_1.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/libraries/Maven__org_eclipse_persistence_org_eclipse_persistence_asm_2_6_0.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/libraries/Maven__org_eclipse_persistence_org_eclipse_persistence_core_2_6_0.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/libraries/Maven__org_eclipse_persistence_org_eclipse_persistence_moxy_2_6_0.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/libraries/Maven__org_glassfish_hk2_external_aopalliance_repackaged_2_4_0_b31.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/libraries/Maven__org_glassfish_hk2_external_javax_inject_2_4_0_b31.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_glassfish_hk2_external_javax_inject_2_5_0_b42.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/libraries/Maven__org_glassfish_hk2_hk2_api_2_4_0_b31.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/libraries/Maven__org_glassfish_hk2_hk2_locator_2_4_0_b31.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/libraries/Maven__org_glassfish_hk2_hk2_utils_2_4_0_b31.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/libraries/Maven__org_glassfish_javax_json_1_0_4.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/libraries/Maven__org_glassfish_jersey_bundles_repackaged_jersey_guava_2_21.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/libraries/Maven__org_glassfish_jersey_containers_jersey_container_servlet_2_21.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/libraries/Maven__org_glassfish_jersey_containers_jersey_container_servlet_core_2_21.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/libraries/Maven__org_glassfish_jersey_core_jersey_client_2_21.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/libraries/Maven__org_glassfish_jersey_core_jersey_common_2_21.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_glassfish_jersey_core_jersey_common_2_27.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/libraries/Maven__org_glassfish_jersey_core_jersey_server_2_21.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/libraries/Maven__org_glassfish_jersey_ext_jersey_entity_filtering_2_21.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_glassfish_jersey_ext_jersey_entity_filtering_2_27.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/libraries/Maven__org_glassfish_jersey_media_jersey_media_jaxb_2_21.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_glassfish_jersey_media_jersey_media_json_jackson_2_27.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/libraries/Maven__org_glassfish_jersey_media_jersey_media_moxy_2_21.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/libraries/Maven__org_javassist_javassist_3_18_1_GA.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/misc.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/modules.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/modules.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/IdRepo" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/back.iml" beforeDir="false" afterPath="$PROJECT_DIR$/back.iml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/lib/ClientSDK-14.1.14.jar" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/lib/FastInfoset-1.2.13.jar" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/lib/gmbal-3.1.0-b001.jar" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/lib/gmbal-api-only-3.1.0-b001.jar" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/lib/ha-api-3.1.9.jar" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/lib/istack-commons-runtime-3.0.5.jar" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/lib/javax.annotation-api-1.3.jar" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/lib/javax.persistence.jar" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/lib/javax.security.auth.message-api-1.1.jar" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/lib/javax.servlet-api-3.0.1.jar" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/lib/javax.xml.rpc-api-1.1.jar" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/lib/javax.xml.soap-api-1.4.0.jar" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/lib/jaxb-api-2.3.0.jar" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/lib/jaxb-core-2.3.0.jar" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/lib/jaxb-impl-2.3.0.jar" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/lib/jaxb1-impl-2.2.4-1.jar" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/lib/jaxrpc-api-1.1.jar" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/lib/jaxrpc-impl-1.1.3_01.jar" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/lib/jaxrpc-spi-1.1.3_01.jar" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/lib/jaxws-api-2.3.0.jar" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/lib/jaxws-rt-2.3.0.jar" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/lib/jsr181-api-1.0-MR1.jar" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/lib/kerberos-wss-extension-1.0.jar" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/lib/mail-1.4.7.jar" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/lib/management-api-3.2.1-b001.jar" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/lib/metro-cm-api-2.4.0.jar" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/lib/metro-commons-2.4.0.jar" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/lib/metro-config-api-2.4.0.jar" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/lib/metro-runtime-api-2.4.0.jar" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/lib/mimepull-1.9.7.jar" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/lib/policy-2.7.2.jar" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/lib/resolver-20050927.jar" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/lib/saaj-impl-1.3.19.jar" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/lib/saml-jaxb10-bindings-1.0.jar" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/lib/slf4j-api-1.7.25.jar" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/lib/soaptcp-api-2.4.0.jar" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/lib/stax-api-1.0-2.jar" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/lib/stax-ex-1.7.8.jar" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/lib/stax2-api-3.1.4.jar" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/lib/streambuffer-1.5.4.jar" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/lib/woodstox-core-asl-4.4.1.jar" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/lib/wsit-api-2.4.0.jar" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/lib/wsit-impl-2.4.0.jar" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/lib/wsmc-api-2.4.0.jar" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/lib/wsrm-api-2.4.0.jar" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/lib/wssx-api-2.4.0.jar" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/lib/wstx-api-2.4.0.jar" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/lib/xmlsec-2.1.0.jar" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/artifacts/spectre/WEB-INF/classes/AMConfig.properties" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/artifacts/spectre/WEB-INF/classes/AMConfig.properties.template" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/artifacts/spectre/WEB-INF/classes/policyEvaluationSample.properties" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/artifacts/spectre/WEB-INF/classes/ru/jakesmokie/spectre/CommandLineSSO.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/artifacts/spectre/WEB-INF/classes/ru/jakesmokie/spectre/SetupClientSDKSamples.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/artifacts/spectre/WEB-INF/classes/ru/jakesmokie/spectre/beans/AuthenticationService.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/artifacts/spectre/WEB-INF/classes/ru/jakesmokie/spectre/beans/DatabaseService.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/artifacts/spectre/WEB-INF/classes/ru/jakesmokie/spectre/entities/DangerLevel.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/artifacts/spectre/WEB-INF/classes/ru/jakesmokie/spectre/entities/Planet.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/artifacts/spectre/WEB-INF/classes/ru/jakesmokie/spectre/entities/Race.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/artifacts/spectre/WEB-INF/classes/ru/jakesmokie/spectre/entities/RaceAtPlanet.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/artifacts/spectre/WEB-INF/classes/ru/jakesmokie/spectre/entities/Station.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/artifacts/spectre/WEB-INF/classes/ru/jakesmokie/spectre/entities/Story.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/artifacts/spectre/WEB-INF/classes/ru/jakesmokie/spectre/entities/Tourist.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/artifacts/spectre/WEB-INF/classes/ru/jakesmokie/spectre/entities/Travel.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/artifacts/spectre/WEB-INF/classes/ru/jakesmokie/spectre/exceptions/InvalidTokenException.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/artifacts/spectre/WEB-INF/classes/ru/jakesmokie/spectre/filters/CORSFilter$1.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/artifacts/spectre/WEB-INF/classes/ru/jakesmokie/spectre/filters/CORSFilter$CORSRequestType.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/artifacts/spectre/WEB-INF/classes/ru/jakesmokie/spectre/filters/CORSFilter.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/artifacts/spectre/WEB-INF/classes/ru/jakesmokie/spectre/listeners/DatabaseServletContextListener.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/artifacts/spectre/WEB-INF/classes/ru/jakesmokie/spectre/restapi/auth/AuthenticationResource.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/artifacts/spectre/WEB-INF/classes/ru/jakesmokie/spectre/restapi/auth/IsAuthorizedResponse.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/artifacts/spectre/WEB-INF/classes/ru/jakesmokie/spectre/restapi/auth/LoginResponse.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/artifacts/spectre/WEB-INF/classes/ru/jakesmokie/spectre/restapi/keykeepers/planets/PlanetAddingParameters.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/artifacts/spectre/WEB-INF/classes/ru/jakesmokie/spectre/restapi/keykeepers/planets/PlanetsResource.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/artifacts/spectre/WEB-INF/classes/ru/jakesmokie/spectre/restapi/keykeepers/races/RacesAddingParameters.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/artifacts/spectre/WEB-INF/classes/ru/jakesmokie/spectre/restapi/keykeepers/races/RacesResource.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/artifacts/spectre/WEB-INF/classes/xacmlClientSample.properties" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/artifacts/spectre/WEB-INF/lib/commonj.sdo-2.1.1.jar" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/artifacts/spectre/WEB-INF/lib/eclipselink-2.7.3.jar" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/artifacts/spectre/WEB-INF/lib/gson-2.8.5.jar" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/artifacts/spectre/WEB-INF/lib/javax.json-api-1.1.2.jar" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/artifacts/spectre/WEB-INF/lib/javax.persistence-2.2.1.jar" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/artifacts/spectre/WEB-INF/lib/javax.persistence.jar" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/artifacts/spectre/WEB-INF/lib/postgresql-42.1.4.jar" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/artifacts/spectre/WEB-INF/lib/validation-api-2.0.1.Final.jar" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/artifacts/spectre_back/META-INF/MANIFEST.MF" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/artifacts/spectre_back/WEB-INF/classes/AMConfig.properties" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/artifacts/spectre_back/WEB-INF/classes/AMConfig.properties.template" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/artifacts/spectre_back/WEB-INF/classes/META-INF/persistence.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/artifacts/spectre_back/WEB-INF/classes/policyEvaluationSample.properties" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/artifacts/spectre_back/WEB-INF/classes/ru/jakesmokie/spectre/CommandLineSSO.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/artifacts/spectre_back/WEB-INF/classes/ru/jakesmokie/spectre/SetupClientSDKSamples.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/artifacts/spectre_back/WEB-INF/classes/ru/jakesmokie/spectre/beans/AuthenticationService.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/artifacts/spectre_back/WEB-INF/classes/ru/jakesmokie/spectre/beans/DatabaseService.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/artifacts/spectre_back/WEB-INF/classes/ru/jakesmokie/spectre/entities/DangerLevel.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/artifacts/spectre_back/WEB-INF/classes/ru/jakesmokie/spectre/entities/Planet.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/artifacts/spectre_back/WEB-INF/classes/ru/jakesmokie/spectre/entities/Race.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/artifacts/spectre_back/WEB-INF/classes/ru/jakesmokie/spectre/entities/RaceAtPlanet.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/artifacts/spectre_back/WEB-INF/classes/ru/jakesmokie/spectre/entities/Station.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/artifacts/spectre_back/WEB-INF/classes/ru/jakesmokie/spectre/entities/Story.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/artifacts/spectre_back/WEB-INF/classes/ru/jakesmokie/spectre/entities/Tourist.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/artifacts/spectre_back/WEB-INF/classes/ru/jakesmokie/spectre/entities/Travel.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/artifacts/spectre_back/WEB-INF/classes/ru/jakesmokie/spectre/exceptions/InvalidTokenException.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/artifacts/spectre_back/WEB-INF/classes/ru/jakesmokie/spectre/filters/CORSFilter$1.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/artifacts/spectre_back/WEB-INF/classes/ru/jakesmokie/spectre/filters/CORSFilter$CORSRequestType.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/artifacts/spectre_back/WEB-INF/classes/ru/jakesmokie/spectre/filters/CORSFilter.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/artifacts/spectre_back/WEB-INF/classes/ru/jakesmokie/spectre/listeners/DatabaseServletContextListener.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/artifacts/spectre_back/WEB-INF/classes/ru/jakesmokie/spectre/restapi/SomeResource.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/artifacts/spectre_back/WEB-INF/classes/ru/jakesmokie/spectre/restapi/auth/AuthenticationResource.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/artifacts/spectre_back/WEB-INF/classes/ru/jakesmokie/spectre/restapi/auth/IsAuthorizedResponse.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/artifacts/spectre_back/WEB-INF/classes/ru/jakesmokie/spectre/restapi/auth/LoginResponse.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/artifacts/spectre_back/WEB-INF/classes/ru/jakesmokie/spectre/restapi/keykeepers/planets/PlanetAddingParameters.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/artifacts/spectre_back/WEB-INF/classes/ru/jakesmokie/spectre/restapi/keykeepers/planets/PlanetsResource.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/artifacts/spectre_back/WEB-INF/classes/ru/jakesmokie/spectre/restapi/keykeepers/races/RacesAddingParameters.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/artifacts/spectre_back/WEB-INF/classes/ru/jakesmokie/spectre/restapi/keykeepers/races/RacesResource.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/artifacts/spectre_back/WEB-INF/classes/xacmlClientSample.properties" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/artifacts/spectre_back/WEB-INF/lib/activation-1.1.jar" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/artifacts/spectre_back/WEB-INF/lib/commonj.sdo-2.1.1.jar" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/artifacts/spectre_back/WEB-INF/lib/eclipselink-2.7.3.jar" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/artifacts/spectre_back/WEB-INF/lib/gson-2.8.5.jar" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/artifacts/spectre_back/WEB-INF/lib/javaee-api-8.0.jar" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/artifacts/spectre_back/WEB-INF/lib/javax.json-api-1.1.2.jar" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/artifacts/spectre_back/WEB-INF/lib/javax.mail-1.6.0.jar" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/artifacts/spectre_back/WEB-INF/lib/javax.persistence-2.2.1.jar" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/artifacts/spectre_back/WEB-INF/lib/javax.servlet-api-4.0.1.jar" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/artifacts/spectre_back/WEB-INF/lib/jersey-bundle-1.19.4.jar" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/artifacts/spectre_back/WEB-INF/lib/jersey-core-1.19.4.jar" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/artifacts/spectre_back/WEB-INF/lib/jersey-server-1.19.4.jar" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/artifacts/spectre_back/WEB-INF/lib/jsr311-api-1.1.1.jar" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/artifacts/spectre_back/WEB-INF/lib/openam-clientsdk-14.1.14.jar" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/artifacts/spectre_back/WEB-INF/lib/postgresql-42.1.4.jar" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/artifacts/spectre_back/WEB-INF/lib/validation-api-2.0.1.Final.jar" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/pom.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/Authentication" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/Configuration" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/CoreSystem" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/IdRepo" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/Session" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/META-INF/persistence.xml" beforeDir="false" afterPath="$PROJECT_DIR$/spectre/src/main/java/META-INF/persistence.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/ru/jakesmokie/spectre/CommandLineSSO.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/ru/jakesmokie/spectre/SetupClientSDKSamples.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/ru/jakesmokie/spectre/beans/AuthenticationService.java" beforeDir="false" afterPath="$PROJECT_DIR$/spectre/src/main/java/ru/jakesmokie/spectre/beans/AuthenticationService.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/ru/jakesmokie/spectre/beans/DatabaseService.java" beforeDir="false" afterPath="$PROJECT_DIR$/spectre/src/main/java/ru/jakesmokie/spectre/beans/DatabaseService.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/ru/jakesmokie/spectre/entities/DangerLevel.java" beforeDir="false" afterPath="$PROJECT_DIR$/spectre/src/main/java/ru/jakesmokie/spectre/entities/DangerLevel.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/ru/jakesmokie/spectre/entities/Planet.java" beforeDir="false" afterPath="$PROJECT_DIR$/spectre/src/main/java/ru/jakesmokie/spectre/entities/Planet.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/ru/jakesmokie/spectre/entities/Race.java" beforeDir="false" afterPath="$PROJECT_DIR$/spectre/src/main/java/ru/jakesmokie/spectre/entities/Race.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/ru/jakesmokie/spectre/entities/RaceAtPlanet.java" beforeDir="false" afterPath="$PROJECT_DIR$/spectre/src/main/java/ru/jakesmokie/spectre/entities/RaceAtPlanet.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/ru/jakesmokie/spectre/entities/Station.java" beforeDir="false" afterPath="$PROJECT_DIR$/spectre/src/main/java/ru/jakesmokie/spectre/entities/Station.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/ru/jakesmokie/spectre/entities/Story.java" beforeDir="false" afterPath="$PROJECT_DIR$/spectre/src/main/java/ru/jakesmokie/spectre/entities/Story.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/ru/jakesmokie/spectre/entities/Tourist.java" beforeDir="false" afterPath="$PROJECT_DIR$/spectre/src/main/java/ru/jakesmokie/spectre/entities/Tourist.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/ru/jakesmokie/spectre/entities/Travel.java" beforeDir="false" afterPath="$PROJECT_DIR$/spectre/src/main/java/ru/jakesmokie/spectre/entities/Travel.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/ru/jakesmokie/spectre/exceptions/InvalidTokenException.java" beforeDir="false" afterPath="$PROJECT_DIR$/spectre/src/main/java/ru/jakesmokie/spectre/exceptions/InvalidTokenException.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/ru/jakesmokie/spectre/filters/CORSFilter.java" beforeDir="false" afterPath="$PROJECT_DIR$/spectre/src/main/java/ru/jakesmokie/spectre/filters/CORSFilter.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/ru/jakesmokie/spectre/listeners/DatabaseServletContextListener.java" beforeDir="false" afterPath="$PROJECT_DIR$/spectre/src/main/java/ru/jakesmokie/spectre/listeners/DatabaseServletContextListener.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/ru/jakesmokie/spectre/restapi/SomeResource.java" beforeDir="false" afterPath="$PROJECT_DIR$/spectre/src/main/java/ru/jakesmokie/spectre/restapi/SomeResource.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/ru/jakesmokie/spectre/restapi/auth/AuthenticationResource.java" beforeDir="false" afterPath="$PROJECT_DIR$/spectre/src/main/java/ru/jakesmokie/spectre/restapi/auth/AuthenticationResource.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/ru/jakesmokie/spectre/restapi/auth/IsAuthorizedResponse.java" beforeDir="false" afterPath="$PROJECT_DIR$/spectre/src/main/java/ru/jakesmokie/spectre/restapi/auth/entities/IsAuthorizedResponse.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/ru/jakesmokie/spectre/restapi/auth/LoginResponse.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/ru/jakesmokie/spectre/restapi/keykeepers/planets/PlanetAddingParameters.java" beforeDir="false" afterPath="$PROJECT_DIR$/spectre/src/main/java/ru/jakesmokie/spectre/restapi/keykeepers/planets/PlanetAddingParameters.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/ru/jakesmokie/spectre/restapi/keykeepers/planets/PlanetsResource.java" beforeDir="false" afterPath="$PROJECT_DIR$/spectre/src/main/java/ru/jakesmokie/spectre/restapi/keykeepers/planets/PlanetsResource.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/ru/jakesmokie/spectre/restapi/keykeepers/races/RacesAddingParameters.java" beforeDir="false" afterPath="$PROJECT_DIR$/spectre/src/main/java/ru/jakesmokie/spectre/restapi/keykeepers/races/RacesAddingParameters.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/ru/jakesmokie/spectre/restapi/keykeepers/races/RacesResource.java" beforeDir="false" afterPath="$PROJECT_DIR$/spectre/src/main/java/ru/jakesmokie/spectre/restapi/keykeepers/races/RacesResource.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/resources/AMConfig.properties" beforeDir="false" afterPath="$PROJECT_DIR$/spectre/src/main/resources/AMConfig.properties" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/resources/AMConfig.properties.template" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/resources/clientDefault.properties" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/resources/policyEvaluationSample.properties" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/resources/xacmlClientSample.properties" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/webapp/WEB-INF/web.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/webapp/index.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/java/ru/jakesmokie/spectre/tests/AuthTests.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/java/ru/jakesmokie/spectre/tests/PlanetsTests.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/AMConfig.properties" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/AMConfig.properties.template" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/clientDefault.properties" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/policyEvaluationSample.properties" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/ru/jakesmokie/spectre/CommandLineSSO.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/ru/jakesmokie/spectre/SetupClientSDKSamples.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/ru/jakesmokie/spectre/beans/AuthenticationService.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/ru/jakesmokie/spectre/beans/DatabaseService.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/ru/jakesmokie/spectre/entities/DangerLevel.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/ru/jakesmokie/spectre/entities/Planet.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/ru/jakesmokie/spectre/entities/Race.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/ru/jakesmokie/spectre/entities/RaceAtPlanet.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/ru/jakesmokie/spectre/entities/Station.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/ru/jakesmokie/spectre/entities/Story.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/ru/jakesmokie/spectre/entities/Tourist.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/ru/jakesmokie/spectre/entities/Travel.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/ru/jakesmokie/spectre/exceptions/InvalidTokenException.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/ru/jakesmokie/spectre/filters/CORSFilter$1.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/ru/jakesmokie/spectre/filters/CORSFilter$CORSRequestType.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/ru/jakesmokie/spectre/filters/CORSFilter.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/ru/jakesmokie/spectre/listeners/DatabaseServletContextListener.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/ru/jakesmokie/spectre/restapi/SomeResource.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/ru/jakesmokie/spectre/restapi/auth/AuthenticationResource.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/ru/jakesmokie/spectre/restapi/auth/IsAuthorizedResponse.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/ru/jakesmokie/spectre/restapi/auth/LoginResponse.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/ru/jakesmokie/spectre/restapi/keykeepers/planets/PlanetAddingParameters.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/ru/jakesmokie/spectre/restapi/keykeepers/planets/PlanetsResource.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/ru/jakesmokie/spectre/restapi/keykeepers/races/RacesAddingParameters.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/ru/jakesmokie/spectre/restapi/keykeepers/races/RacesResource.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/xacmlClientSample.properties" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/test-classes/ru/jakesmokie/spectre/tests/AuthTests.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/test-classes/ru/jakesmokie/spectre/tests/PlanetsTests.class" beforeDir="false" />
     </list>
     <ignored path="$PROJECT_DIR$/out/" />
     <ignored path="$PROJECT_DIR$/target/" />
     <ignored path="$PROJECT_DIR$/sample/target/" />
+    <ignored path="$PROJECT_DIR$/spectre/target/" />
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -244,7 +307,38 @@
     <option name="HIDDEN_KINDS">
       <set />
     </option>
-    <expand />
+    <expand>
+      <path>
+        <item name="Database" type="3277223f:DatabaseStructure$DbRootGroup" />
+        <item name="postgres@jakesmokie.ru" type="feb32156:DbDataSourceImpl" />
+      </path>
+      <path>
+        <item name="Database" type="3277223f:DatabaseStructure$DbRootGroup" />
+        <item name="postgres@jakesmokie.ru" type="feb32156:DbDataSourceImpl" />
+        <item name="databases" type="d4e8921:DatabaseStructure$FamilyGroup" />
+      </path>
+      <path>
+        <item name="Database" type="3277223f:DatabaseStructure$DbRootGroup" />
+        <item name="postgres@jakesmokie.ru" type="feb32156:DbDataSourceImpl" />
+        <item name="databases" type="d4e8921:DatabaseStructure$FamilyGroup" />
+        <item name="postgres: database" type="6d9b600a:PostgresImplModel$Database" />
+      </path>
+      <path>
+        <item name="Database" type="3277223f:DatabaseStructure$DbRootGroup" />
+        <item name="postgres@jakesmokie.ru" type="feb32156:DbDataSourceImpl" />
+        <item name="databases" type="d4e8921:DatabaseStructure$FamilyGroup" />
+        <item name="postgres: database" type="6d9b600a:PostgresImplModel$Database" />
+        <item name="schemas" type="d4e8921:DatabaseStructure$FamilyGroup" />
+      </path>
+      <path>
+        <item name="Database" type="3277223f:DatabaseStructure$DbRootGroup" />
+        <item name="postgres@jakesmokie.ru" type="feb32156:DbDataSourceImpl" />
+        <item name="databases" type="d4e8921:DatabaseStructure$FamilyGroup" />
+        <item name="postgres: database" type="6d9b600a:PostgresImplModel$Database" />
+        <item name="schemas" type="d4e8921:DatabaseStructure$FamilyGroup" />
+        <item name="spectre: schema" type="a16502c0:PostgresImplModel$Schema" />
+      </path>
+    </expand>
     <select />
   </component>
   <component name="FUSProjectUsageTrigger">
@@ -279,113 +373,90 @@
           <entry key="Authentication" value="2" />
           <entry key="Configuration" value="2" />
           <entry key="CoreSystem" value="1" />
-          <entry key="IdRepo" value="1" />
+          <entry key="IdRepo" value="2" />
           <entry key="Session" value="1" />
-          <entry key="class" value="19" />
+          <entry key="class" value="23" />
           <entry key="dangerlevel" value="1" />
-          <entry key="html" value="1" />
-          <entry key="iml" value="1" />
-          <entry key="java" value="117" />
-          <entry key="properties" value="12" />
+          <entry key="html" value="3" />
+          <entry key="iml" value="3" />
+          <entry key="java" value="137" />
+          <entry key="properties" value="14" />
           <entry key="public" value="3" />
           <entry key="sequence" value="1" />
           <entry key="sql" value="2" />
-          <entry key="template" value="3" />
+          <entry key="template" value="4" />
           <entry key="travel" value="1" />
-          <entry key="xml" value="23" />
+          <entry key="xml" value="31" />
         </counts>
       </usages-collector>
       <usages-collector id="statistics.file.types.open">
         <counts>
-          <entry key="CLASS" value="19" />
+          <entry key="CLASS" value="23" />
           <entry key="Database Element" value="2" />
-          <entry key="HTML" value="1" />
-          <entry key="IDEA_MODULE" value="1" />
-          <entry key="JAVA" value="117" />
-          <entry key="PLAIN_TEXT" value="10" />
-          <entry key="Properties" value="12" />
+          <entry key="HTML" value="3" />
+          <entry key="IDEA_MODULE" value="3" />
+          <entry key="JAVA" value="137" />
+          <entry key="PLAIN_TEXT" value="12" />
+          <entry key="Properties" value="14" />
           <entry key="Scratch" value="2" />
           <entry key="UML" value="4" />
-          <entry key="XML" value="23" />
+          <entry key="XML" value="31" />
         </counts>
       </usages-collector>
       <usages-collector id="statistics.file.extensions.edit">
         <counts>
+          <entry key="class" value="2" />
           <entry key="dummy" value="73" />
-          <entry key="java" value="4725" />
+          <entry key="java" value="4877" />
           <entry key="properties" value="239" />
           <entry key="txt" value="10" />
-          <entry key="xml" value="337" />
+          <entry key="xml" value="446" />
         </counts>
       </usages-collector>
       <usages-collector id="statistics.file.types.edit">
         <counts>
-          <entry key="JAVA" value="4725" />
+          <entry key="CLASS" value="2" />
+          <entry key="JAVA" value="4877" />
           <entry key="PLAIN_TEXT" value="83" />
           <entry key="Properties" value="239" />
-          <entry key="XML" value="337" />
+          <entry key="XML" value="446" />
         </counts>
       </usages-collector>
     </session>
   </component>
   <component name="FileEditorManager">
     <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/main/java/ru/jakesmokie/spectre/SetupClientSDKSamples.java">
+      <file pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/spectre/src/main/java/ru/jakesmokie/spectre/restapi/auth/AuthenticationResource.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="288">
-              <caret line="57" column="18" selection-start-line="57" selection-start-column="18" selection-end-line="57" selection-end-column="18" />
+            <state relative-caret-position="262">
+              <caret line="26" column="9" lean-forward="true" selection-start-line="26" selection-start-column="9" selection-end-line="26" selection-end-column="9" />
             </state>
           </provider>
         </entry>
       </file>
-      <file pinned="false" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/src/main/java/ru/jakesmokie/spectre/CommandLineSSO.java">
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/spectre/src/main/java/ru/jakesmokie/spectre/restapi/auth/entities/IsAuthorizedResponse.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="622">
-              <caret line="110" column="27" lean-forward="true" selection-start-line="110" selection-start-column="27" selection-end-line="110" selection-end-column="27" />
+            <state>
+              <caret column="7" selection-start-column="7" selection-end-column="7" />
               <folding>
-                <element signature="n#!!doc" expanded="true" />
                 <element signature="imports" expanded="true" />
+                <element signature="e#272#273#0" expanded="true" />
+                <element signature="e#320#321#0" expanded="true" />
               </folding>
             </state>
           </provider>
         </entry>
       </file>
       <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/main/resources/clientDefault.properties">
+        <entry file="file://$PROJECT_DIR$/spectre/src/main/java/ru/jakesmokie/spectre/restapi/auth/entities/LoginResponse.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="630">
-              <caret line="35" column="40" selection-start-line="35" selection-start-column="40" selection-end-line="35" selection-end-column="40" />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/main/resources/AMConfig.properties.template">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="252">
-              <caret line="14" column="36" selection-start-line="14" selection-start-column="36" selection-end-line="14" selection-end-column="36" />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/pom.xml">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="180">
-              <caret line="10" column="18" selection-start-line="10" selection-start-column="18" selection-end-line="10" selection-end-column="18" />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/main/java/ru/jakesmokie/spectre/beans/AuthenticationService.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="468">
-              <caret line="26" column="55" selection-start-line="26" selection-start-column="55" selection-end-line="26" selection-end-column="55" />
+            <state relative-caret-position="198">
+              <caret line="14" column="5" lean-forward="true" selection-start-line="14" selection-start-column="5" selection-end-line="14" selection-end-column="5" />
               <folding>
-                <element signature="imports" expanded="true" />
+                <element signature="e#271#272#0" expanded="true" />
+                <element signature="e#305#306#0" expanded="true" />
               </folding>
             </state>
           </provider>
@@ -446,21 +517,6 @@
   <component name="IdeDocumentHistory">
     <option name="CHANGED_PATHS">
       <list>
-        <option value="$PROJECT_DIR$/src/main/java/ru/jakesmokie/spectre/entities/RaceAtPlanet.java" />
-        <option value="$PROJECT_DIR$/src/main/java/DBManager.java" />
-        <option value="$PROJECT_DIR$/src/main/java/ru/jakesmokie/spectre/filters/CORSFilter.java" />
-        <option value="$PROJECT_DIR$/src/main/java/ru/jakesmokie/spectre/listeners/DatabaseServletContextListener.java" />
-        <option value="$PROJECT_DIR$/src/main/java/ru/jakesmokie/spectre/entities/Race.java" />
-        <option value="$PROJECT_DIR$/src/main/java/ru/jakesmokie/spectre/entities/Station.java" />
-        <option value="$PROJECT_DIR$/src/main/java/ru/jakesmokie/spectre/entities/Story.java" />
-        <option value="$PROJECT_DIR$/src/main/java/ru/jakesmokie/spectre/entities/Tourist.java" />
-        <option value="$PROJECT_DIR$/src/main/java/ru/jakesmokie/spectre/entities/Travel.java" />
-        <option value="$PROJECT_DIR$/com.java" />
-        <option value="$PROJECT_DIR$/debugconfig.properties" />
-        <option value="$PROJECT_DIR$/src/main/resources/debugconfig.properties" />
-        <option value="$PROJECT_DIR$/src/main/resources/com.java" />
-        <option value="$PROJECT_DIR$/src/main/resources/Spectre.properties" />
-        <option value="$PROJECT_DIR$/src/main/java/ru/jakesmokie/spectre/beans/AuthenticatonService.java" />
         <option value="$PROJECT_DIR$/src/main/java/ru/jakesmokie/spectre/restapi/responses/LoginResponse.java" />
         <option value="$PROJECT_DIR$/src/main/java/ru/jakesmokie/spectre/restapi/responses/IsAuthorizedResponse.java" />
         <option value="$PROJECT_DIR$/src/main/java/ru/jakesmokie/spectre/restapi/responses/LogoutResponse.java" />
@@ -489,13 +545,29 @@
         <option value="$PROJECT_DIR$/src/main/java/ru/jakesmokie/spectre/restapi/AuthenticationResource.java" />
         <option value="$PROJECT_DIR$/src/main/webapp/WEB-INF/web.xml" />
         <option value="$PROJECT_DIR$/src/main/java/ru/jakesmokie/spectre/restapi/SomeResource.java" />
-        <option value="$PROJECT_DIR$/src/main/java/ru/jakesmokie/spectre/CommandLineSSO.java" />
         <option value="$PROJECT_DIR$/src/main/resources/AMConfig.properties" />
         <option value="$PROJECT_DIR$/src/main/java/ru/jakesmokie/spectre/restapi/auth/AuthenticationResource.java" />
         <option value="$PROJECT_DIR$/sample/pom.xml" />
-        <option value="$PROJECT_DIR$/pom.xml" />
         <option value="$PROJECT_DIR$/src/main/resources/clientDefault.properties" />
         <option value="$PROJECT_DIR$/src/main/java/ru/jakesmokie/spectre/SetupClientSDKSamples.java" />
+        <option value="$PROJECT_DIR$/src/main/java/ru/jakesmokie/spectre/CommandLineSSO.java" />
+        <option value="$PROJECT_DIR$/spectre/src/main/java/ru/jakesmokie/spectre/beans/DatabaseService.java" />
+        <option value="$PROJECT_DIR$/pom.xml" />
+        <option value="$PROJECT_DIR$/spectre/src/main/java/META-INF/persistence.xml" />
+        <option value="$PROJECT_DIR$/spectre/src/main/java/SetupClientSDKSamples.java" />
+        <option value="$PROJECT_DIR$/spectre/src/main/java/CommandLineSSO.java" />
+        <option value="$PROJECT_DIR$/spectre/src/main/java/ru/jakesmokie/spectre/restapi/SomeResource.java" />
+        <option value="$PROJECT_DIR$/spectre/src/main/java/ru/jakesmokie/spectre/HelloWorld.java" />
+        <option value="$PROJECT_DIR$/spectre/src/main/webapp/WEB-INF/web.xml" />
+        <option value="$PROJECT_DIR$/spectre/web/WEB-INF/web.xml" />
+        <option value="$PROJECT_DIR$/spectre/src/main/java/ru/jakesmokie/spectre/beans/AuthenticationService.java" />
+        <option value="$PROJECT_DIR$/spectre/src/main/resources/com.java" />
+        <option value="$PROJECT_DIR$/spectre/src/main/java/ru/jakesmokie/spectre/CommandLineSSO.java" />
+        <option value="$PROJECT_DIR$/spectre/src/main/java/ru/jakesmokie/spectre/restapi/auth/LoginResponse.java" />
+        <option value="$PROJECT_DIR$/spectre/pom.xml" />
+        <option value="$PROJECT_DIR$/spectre/src/main/java/ru/jakesmokie/spectre/restapi/auth/AuthenticationResource.java" />
+        <option value="$PROJECT_DIR$/spectre/src/main/java/ru/jakesmokie/spectre/restapi/auth/entities/IsAuthorizedResponse.java" />
+        <option value="$PROJECT_DIR$/spectre/src/main/java/ru/jakesmokie/spectre/restapi/auth/entities/LoginResponse.java" />
       </list>
     </option>
   </component>
@@ -576,17 +648,25 @@
             <path>
               <item name="back" type="b2602c69:ProjectViewProjectNode" />
               <item name="back" type="462c0819:PsiDirectoryNode" />
+              <item name="spectre" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="back" type="b2602c69:ProjectViewProjectNode" />
+              <item name="back" type="462c0819:PsiDirectoryNode" />
+              <item name="spectre" type="462c0819:PsiDirectoryNode" />
               <item name="src" type="462c0819:PsiDirectoryNode" />
             </path>
             <path>
               <item name="back" type="b2602c69:ProjectViewProjectNode" />
               <item name="back" type="462c0819:PsiDirectoryNode" />
+              <item name="spectre" type="462c0819:PsiDirectoryNode" />
               <item name="src" type="462c0819:PsiDirectoryNode" />
               <item name="main" type="462c0819:PsiDirectoryNode" />
             </path>
             <path>
               <item name="back" type="b2602c69:ProjectViewProjectNode" />
               <item name="back" type="462c0819:PsiDirectoryNode" />
+              <item name="spectre" type="462c0819:PsiDirectoryNode" />
               <item name="src" type="462c0819:PsiDirectoryNode" />
               <item name="main" type="462c0819:PsiDirectoryNode" />
               <item name="java" type="462c0819:PsiDirectoryNode" />
@@ -594,6 +674,7 @@
             <path>
               <item name="back" type="b2602c69:ProjectViewProjectNode" />
               <item name="back" type="462c0819:PsiDirectoryNode" />
+              <item name="spectre" type="462c0819:PsiDirectoryNode" />
               <item name="src" type="462c0819:PsiDirectoryNode" />
               <item name="main" type="462c0819:PsiDirectoryNode" />
               <item name="java" type="462c0819:PsiDirectoryNode" />
@@ -602,6 +683,17 @@
             <path>
               <item name="back" type="b2602c69:ProjectViewProjectNode" />
               <item name="back" type="462c0819:PsiDirectoryNode" />
+              <item name="spectre" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="main" type="462c0819:PsiDirectoryNode" />
+              <item name="java" type="462c0819:PsiDirectoryNode" />
+              <item name="spectre" type="462c0819:PsiDirectoryNode" />
+              <item name="beans" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="back" type="b2602c69:ProjectViewProjectNode" />
+              <item name="back" type="462c0819:PsiDirectoryNode" />
+              <item name="spectre" type="462c0819:PsiDirectoryNode" />
               <item name="src" type="462c0819:PsiDirectoryNode" />
               <item name="main" type="462c0819:PsiDirectoryNode" />
               <item name="java" type="462c0819:PsiDirectoryNode" />
@@ -611,6 +703,7 @@
             <path>
               <item name="back" type="b2602c69:ProjectViewProjectNode" />
               <item name="back" type="462c0819:PsiDirectoryNode" />
+              <item name="spectre" type="462c0819:PsiDirectoryNode" />
               <item name="src" type="462c0819:PsiDirectoryNode" />
               <item name="main" type="462c0819:PsiDirectoryNode" />
               <item name="java" type="462c0819:PsiDirectoryNode" />
@@ -621,6 +714,19 @@
             <path>
               <item name="back" type="b2602c69:ProjectViewProjectNode" />
               <item name="back" type="462c0819:PsiDirectoryNode" />
+              <item name="spectre" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="main" type="462c0819:PsiDirectoryNode" />
+              <item name="java" type="462c0819:PsiDirectoryNode" />
+              <item name="spectre" type="462c0819:PsiDirectoryNode" />
+              <item name="restapi" type="462c0819:PsiDirectoryNode" />
+              <item name="auth" type="462c0819:PsiDirectoryNode" />
+              <item name="entities" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="back" type="b2602c69:ProjectViewProjectNode" />
+              <item name="back" type="462c0819:PsiDirectoryNode" />
+              <item name="spectre" type="462c0819:PsiDirectoryNode" />
               <item name="src" type="462c0819:PsiDirectoryNode" />
               <item name="main" type="462c0819:PsiDirectoryNode" />
               <item name="resources" type="462c0819:PsiDirectoryNode" />
@@ -628,6 +734,7 @@
             <path>
               <item name="back" type="b2602c69:ProjectViewProjectNode" />
               <item name="back" type="462c0819:PsiDirectoryNode" />
+              <item name="spectre" type="462c0819:PsiDirectoryNode" />
               <item name="src" type="462c0819:PsiDirectoryNode" />
               <item name="main" type="462c0819:PsiDirectoryNode" />
               <item name="webapp" type="462c0819:PsiDirectoryNode" />
@@ -635,6 +742,7 @@
             <path>
               <item name="back" type="b2602c69:ProjectViewProjectNode" />
               <item name="back" type="462c0819:PsiDirectoryNode" />
+              <item name="spectre" type="462c0819:PsiDirectoryNode" />
               <item name="src" type="462c0819:PsiDirectoryNode" />
               <item name="main" type="462c0819:PsiDirectoryNode" />
               <item name="webapp" type="462c0819:PsiDirectoryNode" />
@@ -643,23 +751,15 @@
             <path>
               <item name="back" type="b2602c69:ProjectViewProjectNode" />
               <item name="back" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="test" type="462c0819:PsiDirectoryNode" />
+              <item name="spectre" type="462c0819:PsiDirectoryNode" />
+              <item name="web" type="462c0819:PsiDirectoryNode" />
             </path>
             <path>
               <item name="back" type="b2602c69:ProjectViewProjectNode" />
               <item name="back" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="test" type="462c0819:PsiDirectoryNode" />
-              <item name="java" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="back" type="b2602c69:ProjectViewProjectNode" />
-              <item name="back" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="test" type="462c0819:PsiDirectoryNode" />
-              <item name="java" type="462c0819:PsiDirectoryNode" />
-              <item name="tests" type="462c0819:PsiDirectoryNode" />
+              <item name="spectre" type="462c0819:PsiDirectoryNode" />
+              <item name="web" type="462c0819:PsiDirectoryNode" />
+              <item name="WEB-INF" type="462c0819:PsiDirectoryNode" />
             </path>
           </expand>
           <select />
@@ -680,35 +780,39 @@
     <property name="SearchEverywhereHistoryKey" value="PrivilegeResource&#9;PSI&#9;JAVA://com.sun.identity.entitlement.rest.PrivilegeResource" />
     <property name="WebServerToolWindowFactoryState" value="false" />
     <property name="aspect.path.notification.shown" value="true" />
-    <property name="com.android.tools.idea.instantapp.provision.ProvisionBeforeRunTaskProvider.myTimeStamp" value="1551790696851" />
+    <property name="com.android.tools.idea.instantapp.provision.ProvisionBeforeRunTaskProvider.myTimeStamp" value="1551878774297" />
     <property name="database.console.LAST_STATE" value="true" />
     <property name="extract.method.default.visibility" value="private" />
     <property name="last_directory_selection" value="$PROJECT_DIR$/src/main/java/ru/jakesmokie/spectre" />
     <property name="last_opened_file_path" value="$PROJECT_DIR$/lib" />
     <property name="nodejs_interpreter_path.stuck_in_default_project" value="undefined stuck path" />
     <property name="nodejs_npm_path_reset_for_default_project" value="true" />
-    <property name="project.structure.last.edited" value="Modules" />
+    <property name="project.structure.last.edited" value="Artifacts" />
     <property name="project.structure.proportion" value="0.15" />
     <property name="project.structure.side.proportion" value="0.43678162" />
     <property name="settings.editor.selected.configurable" value="project.propVCSSupport.Mappings" />
   </component>
   <component name="RecentsManager">
-    <key name="CreateClassDialog.RecentsKey">
-      <recent name="ru.jakesmokie.spectre.tests" />
-      <recent name="ru.jakesmokie.spectre.beans" />
+    <key name="MoveFile.RECENT_KEYS">
+      <recent name="C:\Users\Jake\studyrepos\coursework\back\spectre\src\main\webapp\WEB-INF" />
+      <recent name="C:\Users\Jake\studyrepos\coursework\back\spectre\src\main\webapp" />
+      <recent name="C:\Users\Jake\studyrepos\coursework\back\src\main\resources" />
+      <recent name="C:\Users\Jake\studyrepos\coursework\back\src\main" />
     </key>
     <key name="CopyFile.RECENT_KEYS">
+      <recent name="C:\Users\Jake\studyrepos\coursework\back\spectre\src\main\resources" />
+      <recent name="C:\Users\Jake\studyrepos\coursework\back\spectre\src\main\java" />
+      <recent name="C:\Users\Jake\studyrepos\coursework\back\spectre\src\main" />
       <recent name="C:\Users\Jake\studyrepos\coursework\back\src\main\resources" />
       <recent name="C:\Users\Jake\studyrepos\coursework\back\src\main\java\ru\jakesmokie\spectre" />
-      <recent name="C:\Users\Jake\studyrepos\coursework\back" />
     </key>
     <key name="CopyClassDialog.RECENTS_KEY">
       <recent name="ru.jakesmokie.spectre.restapi.keykeepers.races" />
       <recent name="ru.jakesmokie.spectre.restapi.responses" />
     </key>
-    <key name="MoveFile.RECENT_KEYS">
-      <recent name="C:\Users\Jake\studyrepos\coursework\back\src\main\resources" />
-      <recent name="C:\Users\Jake\studyrepos\coursework\back\src\main" />
+    <key name="CreateClassDialog.RecentsKey">
+      <recent name="ru.jakesmokie.spectre.tests" />
+      <recent name="ru.jakesmokie.spectre.beans" />
     </key>
   </component>
   <component name="RunDashboard">
@@ -723,7 +827,20 @@
       </list>
     </option>
   </component>
-  <component name="RunManager" selected="Application.CommandLineSSO">
+  <component name="RunManager" selected="GlassFish Server.Unnamed">
+    <configuration name="CommandLineSSO (1)" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="ru.jakesmokie.spectre.CommandLineSSO" />
+      <module name="spectre" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="ru.jakesmokie.spectre.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
     <configuration name="CommandLineSSO" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="ru.jakesmokie.spectre.CommandLineSSO" />
       <module name="back" />
@@ -735,6 +852,13 @@
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="SetupClientSDKSamples (1)" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="SetupClientSDKSamples" />
+      <module name="spectre" />
       <method v="2">
         <option name="Make" enabled="true" />
       </method>
@@ -752,159 +876,56 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="Unnamed" type="GlassfishConfiguration" factoryName="Local" APPLICATION_SERVER_NAME="GlassFish 5.0.0" ALTERNATIVE_JRE_ENABLED="false">
-      <option name="OPEN_IN_BROWSER_URL" value="http://localhost:18080/sample-1.0-SNAPSHOT/" />
-      <option name="UPDATING_POLICY" value="redeploy-artifacts" />
+    <configuration name="Unnamed" type="GlassfishConfiguration" factoryName="Remote" APPLICATION_SERVER_NAME="GlassFish 5.0.0" ALTERNATIVE_JRE_ENABLED="false">
+      <option name="HOST" value="jakesmokie.ru" />
+      <option name="PORT" value="18080" />
+      <option name="LOCAL" value="false" />
+      <option name="UPDATING_POLICY" value="hot-swap-classes" />
       <deployment>
-        <artifact name="sample:war exploded">
+        <artifact name="spectre_back">
           <settings />
         </artifact>
       </deployment>
       <server-settings>
-        <option name="DOMAIN" value="domain1" />
-        <option name="PRESERVE" value="false" />
-        <option name="COMPATIBILITY" value="false" />
-        <option name="VIRTUAL_SERVER" />
-        <option name="USERNAME" value="admin" />
-        <option name="PASSWORD" value="" />
+        <data>
+          <option name="adminPort" value="14848" />
+          <option name="adminServerHost" value="" />
+          <option name="clusterName" value="" />
+          <option name="password" value="zui3892asop8123" />
+          <option name="secured" value="true" />
+          <option name="stagingRemotePath" value="" />
+          <option name="transportHostId" />
+          <option name="transportStagingTarget">
+            <TransportTarget>
+              <option name="id" value="e1a8f403-aea1-4e9f-bf6a-8017fffabc20" />
+              <id>e1a8f403-aea1-4e9f-bf6a-8017fffabc20</id>
+            </TransportTarget>
+          </option>
+          <password>zui3892asop8123</password>
+          <admin-port>14848</admin-port>
+          <secured>true</secured>
+          <admin-server-host />
+          <cluster-name />
+          <transport-target>
+            <TransportTarget>
+              <option name="id" value="e1a8f403-aea1-4e9f-bf6a-8017fffabc20" />
+              <id>e1a8f403-aea1-4e9f-bf6a-8017fffabc20</id>
+            </TransportTarget>
+          </transport-target>
+          <staging-path />
+          <host-id />
+        </data>
       </server-settings>
       <predefined_log_file id="GlassFish" enabled="true" />
       <RunnerSettings RunnerId="Debug">
-        <option name="DEBUG_PORT" value="9009" />
+        <option name="DEBUG_PORT" value="52002" />
+        <option name="LOCAL" value="false" />
       </RunnerSettings>
-      <ConfigurationWrapper VM_VAR="JAVA_OPTS" RunnerId="Cover">
-        <option name="USE_ENV_VARIABLES" value="true" />
-        <STARTUP>
-          <option name="USE_DEFAULT" value="true" />
-          <option name="SCRIPT" value="" />
-          <option name="VM_PARAMETERS" value="" />
-          <option name="PROGRAM_PARAMETERS" value="" />
-        </STARTUP>
-        <SHUTDOWN>
-          <option name="USE_DEFAULT" value="true" />
-          <option name="SCRIPT" value="" />
-          <option name="VM_PARAMETERS" value="" />
-          <option name="PROGRAM_PARAMETERS" value="" />
-        </SHUTDOWN>
-      </ConfigurationWrapper>
-      <ConfigurationWrapper VM_VAR="JAVA_OPTS" RunnerId="Debug">
-        <option name="USE_ENV_VARIABLES" value="true" />
-        <STARTUP>
-          <option name="USE_DEFAULT" value="true" />
-          <option name="SCRIPT" value="" />
-          <option name="VM_PARAMETERS" value="" />
-          <option name="PROGRAM_PARAMETERS" value="" />
-        </STARTUP>
-        <SHUTDOWN>
-          <option name="USE_DEFAULT" value="true" />
-          <option name="SCRIPT" value="" />
-          <option name="VM_PARAMETERS" value="" />
-          <option name="PROGRAM_PARAMETERS" value="" />
-        </SHUTDOWN>
-      </ConfigurationWrapper>
-      <ConfigurationWrapper VM_VAR="JAVA_OPTS" RunnerId="Run">
-        <option name="USE_ENV_VARIABLES" value="true" />
-        <STARTUP>
-          <option name="USE_DEFAULT" value="true" />
-          <option name="SCRIPT" value="" />
-          <option name="VM_PARAMETERS" value="" />
-          <option name="PROGRAM_PARAMETERS" value="" />
-        </STARTUP>
-        <SHUTDOWN>
-          <option name="USE_DEFAULT" value="true" />
-          <option name="SCRIPT" value="" />
-          <option name="VM_PARAMETERS" value="" />
-          <option name="PROGRAM_PARAMETERS" value="" />
-        </SHUTDOWN>
-      </ConfigurationWrapper>
       <method v="2">
         <option name="Make" enabled="true" />
-        <option name="BuildArtifacts" enabled="true" />
-      </method>
-    </configuration>
-    <configuration name="sp" type="GlassfishConfiguration" factoryName="Local" APPLICATION_SERVER_NAME="GlassFish 5.0.0" ALTERNATIVE_JRE_ENABLED="false">
-      <option name="OPEN_IN_BROWSER_URL" value="http://localhost:18080/sp" />
-      <option name="UPDATING_POLICY" value="restart-server" />
-      <deployment>
-        <artifact name="sp">
-          <settings />
-        </artifact>
-      </deployment>
-      <server-settings>
-        <option name="DOMAIN" value="domain1" />
-        <option name="PRESERVE" value="false" />
-        <option name="COMPATIBILITY" value="false" />
-        <option name="VIRTUAL_SERVER" />
-        <option name="USERNAME" value="admin" />
-        <option name="PASSWORD" value="" />
-      </server-settings>
-      <predefined_log_file id="GlassFish" enabled="true" />
-      <RunnerSettings RunnerId="Debug">
-        <option name="DEBUG_PORT" value="9009" />
-      </RunnerSettings>
-      <ConfigurationWrapper VM_VAR="JAVA_OPTS" RunnerId="Cover">
-        <option name="USE_ENV_VARIABLES" value="true" />
-        <STARTUP>
-          <option name="USE_DEFAULT" value="true" />
-          <option name="SCRIPT" value="" />
-          <option name="VM_PARAMETERS" value="" />
-          <option name="PROGRAM_PARAMETERS" value="" />
-        </STARTUP>
-        <SHUTDOWN>
-          <option name="USE_DEFAULT" value="true" />
-          <option name="SCRIPT" value="" />
-          <option name="VM_PARAMETERS" value="" />
-          <option name="PROGRAM_PARAMETERS" value="" />
-        </SHUTDOWN>
-      </ConfigurationWrapper>
-      <ConfigurationWrapper VM_VAR="JAVA_OPTS" RunnerId="Debug">
-        <option name="USE_ENV_VARIABLES" value="true" />
-        <STARTUP>
-          <option name="USE_DEFAULT" value="true" />
-          <option name="SCRIPT" value="" />
-          <option name="VM_PARAMETERS" value="" />
-          <option name="PROGRAM_PARAMETERS" value="" />
-        </STARTUP>
-        <SHUTDOWN>
-          <option name="USE_DEFAULT" value="true" />
-          <option name="SCRIPT" value="" />
-          <option name="VM_PARAMETERS" value="" />
-          <option name="PROGRAM_PARAMETERS" value="" />
-        </SHUTDOWN>
-      </ConfigurationWrapper>
-      <ConfigurationWrapper VM_VAR="JAVA_OPTS" RunnerId="Run">
-        <option name="USE_ENV_VARIABLES" value="true" />
-        <STARTUP>
-          <option name="USE_DEFAULT" value="true" />
-          <option name="SCRIPT" value="" />
-          <option name="VM_PARAMETERS" value="" />
-          <option name="PROGRAM_PARAMETERS" value="" />
-        </STARTUP>
-        <SHUTDOWN>
-          <option name="USE_DEFAULT" value="true" />
-          <option name="SCRIPT" value="" />
-          <option name="VM_PARAMETERS" value="" />
-          <option name="PROGRAM_PARAMETERS" value="" />
-        </SHUTDOWN>
-      </ConfigurationWrapper>
-      <method v="2">
         <option name="BuildArtifacts" enabled="true">
-          <artifact name="sp" />
+          <artifact name="spectre_back" />
         </option>
-      </method>
-    </configuration>
-    <configuration name="AuthTests" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
-      <module name="back" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="ru.jakesmokie.spectre.tests.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <option name="PACKAGE_NAME" value="ru.jakesmokie.spectre.tests" />
-      <option name="MAIN_CLASS_NAME" value="ru.jakesmokie.spectre.tests.AuthTests" />
-      <method v="2">
-        <option name="Make" enabled="true" />
       </method>
     </configuration>
     <configuration name="PlanetsTests.testAddingGettingAndDeleting" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
@@ -924,19 +945,20 @@
       </method>
     </configuration>
     <list>
-      <item itemvalue="GlassFish Server.sp" />
       <item itemvalue="GlassFish Server.Unnamed" />
       <item itemvalue="Application.CommandLineSSO" />
       <item itemvalue="Application.SetupClientSDKSamples" />
-      <item itemvalue="JUnit.AuthTests" />
+      <item itemvalue="Application.CommandLineSSO (1)" />
+      <item itemvalue="Application.SetupClientSDKSamples (1)" />
       <item itemvalue="JUnit.PlanetsTests.testAddingGettingAndDeleting" />
     </list>
     <recent_temporary>
       <list>
+        <item itemvalue="Application.CommandLineSSO (1)" />
+        <item itemvalue="Application.SetupClientSDKSamples (1)" />
         <item itemvalue="Application.CommandLineSSO" />
         <item itemvalue="Application.SetupClientSDKSamples" />
         <item itemvalue="JUnit.PlanetsTests.testAddingGettingAndDeleting" />
-        <item itemvalue="JUnit.AuthTests" />
       </list>
     </recent_temporary>
   </component>
@@ -971,7 +993,7 @@
       <workItem from="1551608134541" duration="3056000" />
       <workItem from="1551698107911" duration="8245000" />
       <workItem from="1551787139821" duration="1883000" />
-      <workItem from="1551790636945" duration="60000" />
+      <workItem from="1551790636945" duration="16233000" />
     </task>
     <servers />
   </component>
@@ -1008,13 +1030,13 @@
     </history-entry>
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="110629000" />
+    <option name="totallyTimeSpent" value="126802000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="-8" y="-8" width="1936" height="1056" extended-state="6" />
     <editor active="true" />
     <layout>
-      <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.20095949" />
+      <window_info content_ui="combo" id="Project" order="0" visible="true" weight="0.20095949" />
       <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
       <window_info id="Persistence" order="2" side_tool="true" />
       <window_info id="Designer" order="3" />
@@ -1025,7 +1047,7 @@
       <window_info id="Web" order="8" side_tool="true" />
       <window_info anchor="bottom" id="Message" order="0" />
       <window_info anchor="bottom" id="Find" order="1" weight="0.329718" />
-      <window_info anchor="bottom" id="Run" order="2" sideWeight="0.48827294" weight="0.329718" />
+      <window_info active="true" anchor="bottom" id="Run" order="2" sideWeight="0.48827294" visible="true" weight="0.329718" />
       <window_info anchor="bottom" id="Debug" order="3" sideWeight="0.49733475" weight="0.3991323" />
       <window_info anchor="bottom" id="Cvs" order="4" weight="0.25" />
       <window_info anchor="bottom" id="Inspection" order="5" weight="0.4" />
@@ -1084,18 +1106,6 @@
           <option name="timeStamp" value="2" />
         </line-breakpoint>
         <line-breakpoint enabled="true" type="java-line">
-          <url>jar://$PROJECT_DIR$/lib/ClientSDK-14.1.14.jar!/com/sun/identity/authentication/AuthContext.class</url>
-          <line>361</line>
-          <properties />
-          <option name="timeStamp" value="4" />
-        </line-breakpoint>
-        <line-breakpoint enabled="true" type="java-line">
-          <url>jar://$PROJECT_DIR$/lib/ClientSDK-14.1.14.jar!/com/iplanet/services/naming/WebtopNaming.class</url>
-          <line>372</line>
-          <properties />
-          <option name="timeStamp" value="5" />
-        </line-breakpoint>
-        <line-breakpoint enabled="true" type="java-line">
           <url>jar://$PROJECT_DIR$/lib/ClientSDK-14.1.14.jar!/com/iplanet/services/naming/WebtopNaming.class</url>
           <line>434</line>
           <properties />
@@ -1107,165 +1117,16 @@
           <properties />
           <option name="timeStamp" value="7" />
         </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>jar://$PROJECT_DIR$/lib/ClientSDK-14.1.14.jar!/com/sun/identity/authentication/AuthContext.class</url>
+          <line>888</line>
+          <properties />
+          <option name="timeStamp" value="8" />
+        </line-breakpoint>
       </breakpoints>
     </breakpoint-manager>
   </component>
   <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/src/main/java/ru/jakesmokie/spectre/RestApplication.java" />
-    <entry file="file://$PROJECT_DIR$/src/main/java/ru/jakesmokie/spectre/restapi/keykeepers/planets/PlanetAddingParameters.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="396">
-          <caret line="29" column="43" lean-forward="true" selection-start-line="29" selection-start-column="43" selection-end-line="29" selection-end-column="43" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/ru/jakesmokie/spectre/exceptions/InvalidTokenException.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="90">
-          <caret line="5" column="5" lean-forward="true" selection-start-line="5" selection-start-column="5" selection-end-line="5" selection-end-column="5" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/ru/jakesmokie/spectre/restapi/keykeepers/planets/PlanetsResource.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="408">
-          <caret line="64" column="16" selection-start-line="64" selection-start-column="16" selection-end-line="64" selection-end-column="16" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/test/java/ru/jakesmokie/spectre/tests/PlanetsTests.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="162">
-          <caret line="24" column="53" selection-start-line="24" selection-start-column="53" selection-end-line="24" selection-end-column="53" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/ru/jakesmokie/spectre/beans/DatabaseService.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="126">
-          <caret line="10" column="24" selection-start-line="10" selection-start-column="24" selection-end-line="10" selection-end-column="24" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="jar://$PROJECT_DIR$/lib/javax.persistence.jar!/javax/persistence/spi/PersistenceProvider.class">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="126">
-          <caret line="11" column="25" selection-start-line="11" selection-start-column="25" selection-end-line="11" selection-end-column="25" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="jar://$PROJECT_DIR$/lib/javax.persistence.jar!/javax/persistence/Persistence.class">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="343">
-          <caret line="41" column="30" lean-forward="true" selection-start-line="41" selection-start-column="30" selection-end-line="41" selection-end-column="30" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="jar://$MAVEN_REPOSITORY$/org/eclipse/persistence/eclipselink/2.7.3/eclipselink-2.7.3-sources.jar!/org/eclipse/persistence/internal/jpa/deployment/JPAInitializer.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="168">
-          <caret line="144" selection-start-line="144" selection-end-line="144" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="jar://$MAVEN_REPOSITORY$/org/eclipse/persistence/eclipselink/2.7.3/eclipselink-2.7.3-sources.jar!/org/eclipse/persistence/jpa/PersistenceProvider.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="186">
-          <caret line="190" selection-start-line="190" selection-end-line="190" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="jar://$MAVEN_REPOSITORY$/junit/junit/4.12/junit-4.12-sources.jar!/org/junit/internal/runners/model/ReflectiveCallable.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="234">
-          <caret line="13" selection-start-line="13" selection-end-line="13" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="jar://$MAVEN_REPOSITORY$/junit/junit/4.12/junit-4.12-sources.jar!/org/junit/runners/ParentRunner.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="222">
-          <caret line="370" selection-start-line="370" selection-end-line="370" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="jar://$MAVEN_REPOSITORY$/junit/junit/4.12/junit-4.12-sources.jar!/org/junit/runner/JUnitCore.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="194">
-          <caret line="138" column="19" lean-forward="true" selection-start-line="138" selection-start-column="19" selection-end-line="138" selection-end-column="19" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="jar://$MAVEN_REPOSITORY$/com/sun/jersey/jersey-bundle/1.19.4/jersey-bundle-1.19.4-sources.jar!/com/sun/jersey/spi/container/servlet/WebComponent.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="359">
-          <caret line="206" column="15" selection-start-line="206" selection-start-column="15" selection-end-line="206" selection-end-column="15" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="jar://$MAVEN_REPOSITORY$/com/sun/jersey/jersey-bundle/1.19.4/jersey-bundle-1.19.4-sources.jar!/com/sun/jersey/api/core/ResourceConfig.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="197">
-          <caret line="888" column="27" selection-start-line="888" selection-start-column="27" selection-end-line="888" selection-end-column="27" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="jar://$MAVEN_REPOSITORY$/com/sun/jersey/jersey-bundle/1.19.4/jersey-bundle-1.19.4-sources.jar!/com/sun/jersey/spi/container/servlet/ServletContainer.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="210">
-          <caret line="121" column="67" selection-start-line="121" selection-start-column="67" selection-end-line="121" selection-end-column="67" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="jar://$MAVEN_REPOSITORY$/com/sun/jersey/jersey-bundle/1.19.4/jersey-bundle-1.19.4-sources.jar!/com/sun/jersey/api/core/PackagesResourceConfig.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="72">
-          <caret line="55" column="30" selection-start-line="55" selection-start-column="30" selection-end-line="55" selection-end-column="30" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/test/java/ru/jakesmokie/spectre/tests/AuthTests.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="252">
-          <caret line="19" column="5" selection-start-line="19" selection-start-column="5" selection-end-line="19" selection-end-column="5" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/webapp/index.html">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="126">
-          <caret line="7" selection-start-line="7" selection-end-line="7" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/back.iml">
-      <provider selected="true" editor-type-id="text-editor" />
-    </entry>
-    <entry file="file://$PROJECT_DIR$/IdRepo">
-      <provider selected="true" editor-type-id="text-editor" />
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/ru/jakesmokie/spectre/restapi/SomeResource.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="288">
-          <caret line="16" column="1" selection-start-line="16" selection-start-column="1" selection-end-line="16" selection-end-column="1" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/META-INF/persistence.xml">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="54">
-          <caret line="3" column="66" selection-start-line="3" selection-start-column="66" selection-end-line="3" selection-end-column="66" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/resources/xacmlClientSample.properties">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="1044">
-          <caret line="58" column="10" selection-start-line="58" selection-start-column="10" selection-end-line="58" selection-end-column="10" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="jar://$PROJECT_DIR$/lib/openam-clientsdk-14.1.14.jar!/com/sun/identity/entitlement/rest/PrivilegeResource.class" />
     <entry file="jar://C:/Program Files (x86)/Java/jdk1.8.0_161/src.zip!/java/util/ResourceBundle.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="4104">
@@ -1294,43 +1155,11 @@
         </state>
       </provider>
     </entry>
-    <entry file="jar://$PROJECT_DIR$/lib/ClientSDK-14.1.14.jar!/com/iplanet/services/naming/WebtopNaming.class">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="537">
-          <caret line="438" column="38" selection-start-line="438" selection-start-column="38" selection-end-line="438" selection-end-column="38" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/resources/AMConfig.properties">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="308">
-          <caret line="83" column="41" lean-forward="true" selection-start-line="83" selection-start-column="41" selection-end-line="83" selection-end-column="41" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="jar://$PROJECT_DIR$/lib/ClientSDK-14.1.14.jar!/com/sun/identity/authentication/AuthContext.class">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="5400">
-          <caret line="361" selection-start-line="361" selection-end-line="361" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/sample/src/main/java/ru/jakesmokie/HelloWorld.java" />
     <entry file="file://$PROJECT_DIR$/sample/src/main/java/ru/jakesmokie/JsonBean.java" />
     <entry file="file://$PROJECT_DIR$/sample/pom.xml" />
     <entry file="file://$PROJECT_DIR$/sample/src/main/webapp/WEB-INF/beans.xml" />
     <entry file="file://$PROJECT_DIR$/sample/src/main/webapp/WEB-INF/web.xml" />
-    <entry file="file://$PROJECT_DIR$/src/main/java/ru/jakesmokie/spectre/restapi/auth/AuthenticationResource.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="252">
-          <caret line="22" column="32" selection-start-line="22" selection-start-column="32" selection-end-line="22" selection-end-column="32" />
-          <folding>
-            <element signature="e#1154#1155#0" expanded="true" />
-            <element signature="e#1205#1206#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/src/main/java/ru/jakesmokie/spectre/restapi/auth/IsAuthorizedResponse.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="72">
@@ -1345,13 +1174,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="216">
           <caret line="12" column="43" selection-start-line="12" selection-start-column="43" selection-end-line="12" selection-end-column="43" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/ru/jakesmokie/spectre/SetupClientSDKSamples.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="288">
-          <caret line="57" column="18" selection-start-line="57" selection-start-column="18" selection-end-line="57" selection-end-column="18" />
         </state>
       </provider>
     </entry>
@@ -1375,23 +1197,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/pom.xml">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="180">
-          <caret line="10" column="18" selection-start-line="10" selection-start-column="18" selection-end-line="10" selection-end-column="18" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/ru/jakesmokie/spectre/beans/AuthenticationService.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="468">
-          <caret line="26" column="55" selection-start-line="26" selection-start-column="55" selection-end-line="26" selection-end-column="55" />
-          <folding>
-            <element signature="imports" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/Session">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="450">
@@ -1402,14 +1207,248 @@
     <entry file="file://$PROJECT_DIR$/Authentication">
       <provider selected="true" editor-type-id="text-editor" />
     </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/ru/jakesmokie/spectre/restapi/auth/AuthenticationResource.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="144">
+          <caret line="16" column="30" selection-start-line="16" selection-start-column="30" selection-end-line="16" selection-end-column="30" />
+          <folding>
+            <element signature="e#1154#1155#0" expanded="true" />
+            <element signature="e#1205#1206#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/ru/jakesmokie/spectre/SetupClientSDKSamples.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="288">
+          <caret line="57" column="18" selection-start-line="57" selection-start-column="18" selection-end-line="57" selection-end-column="18" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/resources/AMConfig.properties">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="362">
+          <caret line="83" column="41" selection-start-line="83" selection-start-column="41" selection-end-line="83" selection-end-column="41" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/META-INF/persistence.xml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="234">
+          <caret line="13" column="14" selection-start-line="13" selection-start-column="14" selection-end-line="13" selection-end-column="14" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar://$PROJECT_DIR$/lib/ClientSDK-14.1.14.jar!/com/sun/identity/authentication/AuthContext.class">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="231">
+          <caret line="883" column="74" selection-start-line="883" selection-start-column="74" selection-end-line="883" selection-end-column="74" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar://$PROJECT_DIR$/lib/ClientSDK-14.1.14.jar!/com/iplanet/services/naming/WebtopNaming.class">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="362">
+          <caret line="372" selection-start-line="372" selection-end-line="372" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/ru/jakesmokie/spectre/beans/AuthenticationService.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="234">
+          <caret line="22" column="5" selection-start-line="22" selection-start-column="5" selection-end-line="22" selection-end-column="5" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
     <entry file="file://$PROJECT_DIR$/src/main/java/ru/jakesmokie/spectre/CommandLineSSO.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="622">
-          <caret line="110" column="27" lean-forward="true" selection-start-line="110" selection-start-column="27" selection-end-line="110" selection-end-column="27" />
+        <state relative-caret-position="424">
+          <caret line="75" column="59" selection-start-line="75" selection-start-column="59" selection-end-line="75" selection-end-column="59" />
           <folding>
             <element signature="n#!!doc" expanded="true" />
             <element signature="imports" expanded="true" />
           </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/test/java/ru/jakesmokie/spectre/tests/AuthTests.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="162">
+          <caret line="9" column="13" selection-start-line="9" selection-start-column="13" selection-end-line="9" selection-end-column="13" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/pom.xml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="162">
+          <caret line="9" selection-start-line="9" selection-end-line="9" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/back.iml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="36">
+          <caret line="2" column="2" selection-start-line="2" selection-start-column="2" selection-end-line="14" selection-end-column="14" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/spectre/src/main/java/META-INF/persistence.xml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="234">
+          <caret line="13" column="14" selection-start-line="13" selection-start-column="14" selection-end-line="13" selection-end-column="14" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar://$PROJECT_DIR$/lib/ClientSDK-14.1.14.jar!/com/sun/identity/entitlement/rest/PrivilegeResource.class">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="180">
+          <caret line="13" column="7" selection-start-line="13" selection-start-column="7" selection-end-line="13" selection-end-column="42" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/spectre/spectre.iml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-51">
+          <caret line="9" column="22" selection-start-line="9" selection-start-column="22" selection-end-line="9" selection-end-column="22" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar://$PROJECT_DIR$/lib/ClientSDK-13.0.0.jar!/com/iplanet/sso/SSOTokenManager.class">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="451">
+          <caret line="100" selection-start-line="100" selection-end-line="100" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/spectre/src/main/resources/AMConfig.properties.template">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/spectre/src/main/java/CommandLineSSO.java">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/spectre/src/main/java/SetupClientSDKSamples.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-90">
+          <caret line="31" column="26" selection-start-line="31" selection-start-column="26" selection-end-line="31" selection-end-column="26" />
+          <folding>
+            <element signature="n#!!doc" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/spectre/src/main/resources/clientDefault.properties">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-216" />
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/spectre/src/main/java/ru/jakesmokie/spectre/beans/DatabaseService.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="90">
+          <caret line="8" column="13" selection-start-line="8" selection-start-column="13" selection-end-line="8" selection-end-column="13" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/spectre/src/main/java/ru/jakesmokie/spectre/restapi/SomeResource.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="162">
+          <caret line="9" column="13" selection-start-line="9" selection-start-column="13" selection-end-line="9" selection-end-column="13" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/spectre/src/main/webapp/index.html">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/IdRepo">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/spectre/src/main/java/ru/jakesmokie/spectre/HelloWorld.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="306">
+          <caret line="23" column="1" selection-start-line="23" selection-start-column="1" selection-end-line="23" selection-end-column="1" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/spectre/src/main/webapp/WEB-INF/web.xml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="268">
+          <caret line="34" column="4" lean-forward="true" selection-start-line="34" selection-start-column="4" selection-end-line="41" selection-end-column="28" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/spectre/src/main/resources/AMConfig.properties">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="1062">
+          <caret line="80" column="2" lean-forward="true" selection-start-line="80" selection-start-column="2" selection-end-line="80" selection-end-column="2" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/spectre/src/main/java/ru/jakesmokie/spectre/CommandLineSSO.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="360">
+          <caret line="64" column="48" selection-start-line="64" selection-start-column="48" selection-end-line="64" selection-end-column="48" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/spectre/web/WEB-INF/web.xml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="246">
+          <caret line="29" column="43" selection-start-line="29" selection-start-column="43" selection-end-line="29" selection-end-column="43" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/spectre/pom.xml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="430">
+          <caret line="53" column="20" selection-start-line="53" selection-start-column="20" selection-end-line="53" selection-end-column="20" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/spectre/src/main/java/ru/jakesmokie/spectre/beans/AuthenticationService.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="316">
+          <caret line="45" column="37" selection-start-line="45" selection-start-column="37" selection-end-line="45" selection-end-column="37" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/spectre/src/main/java/ru/jakesmokie/spectre/restapi/auth/entities/LoginResponse.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="198">
+          <caret line="14" column="5" lean-forward="true" selection-start-line="14" selection-start-column="5" selection-end-line="14" selection-end-column="5" />
+          <folding>
+            <element signature="e#271#272#0" expanded="true" />
+            <element signature="e#305#306#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/spectre/src/main/java/ru/jakesmokie/spectre/restapi/auth/entities/IsAuthorizedResponse.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state>
+          <caret column="7" selection-start-column="7" selection-end-column="7" />
+          <folding>
+            <element signature="imports" expanded="true" />
+            <element signature="e#272#273#0" expanded="true" />
+            <element signature="e#320#321#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/spectre/src/main/java/ru/jakesmokie/spectre/restapi/auth/AuthenticationResource.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="262">
+          <caret line="26" column="9" lean-forward="true" selection-start-line="26" selection-start-column="9" selection-end-line="26" selection-end-column="9" />
         </state>
       </provider>
     </entry>
@@ -1431,7 +1470,7 @@
       <state key="ArtifactsStructureConfigurable.UI">
         <settings>
           <artifact-editor />
-          <last-edited>sp</last-edited>
+          <last-edited>spectre_back</last-edited>
           <splitter-proportions>
             <option name="proportions">
               <list>
@@ -1444,7 +1483,7 @@
       </state>
       <state key="FacetStructureConfigurable.UI">
         <settings>
-          <last-edited>JPA</last-edited>
+          <last-edited>Web (spectre)|Web</last-edited>
           <splitter-proportions>
             <option name="proportions">
               <list>
@@ -1460,7 +1499,7 @@
           <splitter-proportions>
             <option name="proportions">
               <list>
-                <option value="0.2" />
+                <option value="0.43678162" />
               </list>
             </option>
           </splitter-proportions>
@@ -1472,7 +1511,7 @@
           <splitter-proportions>
             <option name="proportions">
               <list>
-                <option value="0.2" />
+                <option value="0.43678162" />
               </list>
             </option>
           </splitter-proportions>
@@ -1480,12 +1519,11 @@
       </state>
       <state key="ModuleStructureConfigurable.UI">
         <settings>
-          <last-edited>back</last-edited>
+          <last-edited>Web|spectre</last-edited>
           <splitter-proportions>
             <option name="proportions">
               <list>
                 <option value="0.43678162" />
-                <option value="0.6" />
               </list>
             </option>
           </splitter-proportions>
@@ -1493,7 +1531,7 @@
       </state>
       <state key="ProjectLibrariesConfigurable.UI">
         <settings>
-          <last-edited>Maven: org.projectlombok:lombok:1.18.2</last-edited>
+          <last-edited>lib</last-edited>
           <splitter-proportions>
             <option name="proportions">
               <list>

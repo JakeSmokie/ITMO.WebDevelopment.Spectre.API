@@ -1,0 +1,22 @@
+amAuthContext:03/06/2019 03:59:07:989 PM MSK: Thread[main,5,main]: TransactionId[unknown]
+ERROR: Failed to obtain auth service url from server: http://jakesmokie.ru:10001
+amAuthContext:03/06/2019 03:59:08:003 PM MSK: Thread[main,5,main]: TransactionId[unknown]
+Org Name : /spectre
+amAuthContext:03/06/2019 03:59:08:008 PM MSK: Thread[main,5,main]: TransactionId[unknown]
+ssoTokenID: null
+amAuthContext:03/06/2019 03:59:08:012 PM MSK: Thread[main,5,main]: TransactionId[unknown]
+serviceURLs: [http://jakesmokie.ru:10001/openam/authservice]
+amAuthContext:03/06/2019 03:59:08:017 PM MSK: Thread[main,5,main]: TransactionId[unknown]
+in setLocalFlag(), url : http://jakesmokie.ru:10001
+amAuthContext:03/06/2019 03:59:08:023 PM MSK: Thread[main,5,main]: TransactionId[unknown]
+AuthContext.localAuthServiceID : null
+amAuthContext:03/06/2019 03:59:08:719 PM MSK: Thread[main,5,main]: TransactionId[unknown]
+AuthContext.login : runLogin against http://jakesmokie.ru:10001/openam/authservice
+amAuthContext:03/06/2019 03:59:08:719 PM MSK: Thread[main,5,main]: TransactionId[unknown]
+in setLocalFlag(), url : http://jakesmokie.ru:10001
+amAuthContext:03/06/2019 03:59:08:726 PM MSK: Thread[main,5,main]: TransactionId[unknown]
+AuthContext.localAuthServiceID : null
+amAuthContext:03/06/2019 03:59:08:733 PM MSK: Thread[main,5,main]: TransactionId[unknown]
+Not including req/res false
+amAuthContext:03/06/2019 03:59:08:739 PM MSK: Thread[main,5,main]: TransactionId[unknown]
+Service URL : http://jakesmokie.ru:10001/openam/authservice

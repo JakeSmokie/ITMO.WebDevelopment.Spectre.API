@@ -7,11 +7,13 @@
         <sourceTestOutputDir name="target/generated-test-sources/test-annotations" />
         <outputRelativeToContentRoot value="true" />
         <module name="back" />
+        <module name="spectre" />
       </profile>
     </annotationProcessing>
     <bytecodeTargetLevel>
       <module name="back" target="1.8" />
       <module name="sample" target="1.8" />
+      <module name="spectre" target="1.8" />
     </bytecodeTargetLevel>
   </component>
 </project>

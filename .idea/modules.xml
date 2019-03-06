@@ -3,6 +3,7 @@
   <component name="ProjectModuleManager">
     <modules>
       <module fileurl="file://$PROJECT_DIR$/back.iml" filepath="$PROJECT_DIR$/back.iml" />
+      <module fileurl="file://$PROJECT_DIR$/spectre/spectre.iml" filepath="$PROJECT_DIR$/spectre/spectre.iml" />
     </modules>
   </component>
 </project>

@@ -1,0 +1,120 @@
+amNaming:03/06/2019 03:59:06:902 PM MSK: Thread[main,5,main]: TransactionId[unknown]
+Naming service URL list: [http://jakesmokie.ru:10001/openam/namingservice]
+amNaming:03/06/2019 03:59:06:905 PM MSK: Thread[main,5,main]: TransactionId[unknown]
+SiteMonitor : SiteStatusCheck class = com.iplanet.services.naming.SiteStatusCheckThreadImpl
+amComm:03/06/2019 03:59:06:925 PM MSK: Thread[main,5,main]: TransactionId[unknown]
+Configured Protocol Handler : null
+PLLClient:03/06/2019 03:59:06:930 PM MSK: Thread[main,5,main]: TransactionId[unknown]
+Configured Protocol Handler : null
+amNaming:03/06/2019 03:59:07:673 PM MSK: Thread[main,5,main]: TransactionId[unknown]
+SiteID table -> {01=01}
+amNaming:03/06/2019 03:59:07:674 PM MSK: Thread[main,5,main]: TransactionId[unknown]
+WebtopNaming.updateLBCookieValueMappings():LBCookieValues table -> {01=01}
+amNaming:03/06/2019 03:59:07:680 PM MSK: Thread[main,5,main]: TransactionId[unknown]
+Naming table -> {iplanet-am-platform-site-id-list=01, iplanet-am-naming-policy-url=%protocol://%host:%port%uri/policyservice, iplanet-am-naming-session-class=com.iplanet.dpro.session.service.SessionRequestHandler, iplanet-am-naming-session-url=%protocol://%host:%port%uri/sessionservice, iplanet-am-naming-securitytokenmanager-url=%protocol://%host:%port%uri/SecurityTokenManagerServlet/SecurityTokenManagerIF, iplanet-am-naming-samlawareservlet-url=%protocol://%host:%port%uri/SAMLAwareServlet, serviceObjectClasses=iplanet-am-naming-service, iplanet-am-naming-auth-url=%protocol://%host:%port%uri/authservice, iplanet-am-naming-profile-class=com.iplanet.dpro.profile.agent.ProfileService, iplanet-am-naming-samlassertionmanager-url=%protocol://%host:%port%uri/AssertionManagerServlet/AssertionManagerIF, 01=http://jakesmokie.ru:10001/openam, iplanet-am-naming-policy-class=com.sun.identity.policy.remote.PolicyRequestHandler, iplanet-am-naming-jaxrpc-url=%protocol://%host:%port%uri/jaxrpc/, iplanet-am-naming-logging-class=com.sun.identity.log.service.LogService, iplanet-am-naming-profile-url=%protocol://%host:%port%uri/profileservice, sun-naming-idsvcs-jaxws-url=%protocol://%host:%port%uri/identityservices/, iplanet-am-naming-samlsoapreceiver-url=%protocol://%host:%port%uri/SAMLSOAPReceiver, sun-naming-idsvcs-rest-url=%protocol://%host:%port%uri/identity/, iplanet-am-platform-lb-cookie-value-list=01|01, iplanet-am-naming-logging-url=%protocol://%host:%port%uri/loggingservice, iplanet-am-naming-fsassertionmanager-url=%protocol://%host:%port%uri/FSAssertionManagerServlet/FSAssertionManagerIF, openam-am-platform-site-names-list=, iplanet-am-platform-server-list=http://jakesmokie.ru:10001/openam, sun-naming-sts-mex-url=%protocol://%host:%port%uri/sts/mex, iplanet-am-naming-samlpostservlet-url=%protocol://%host:%port%uri/SAMLPOSTProfileServlet, sun-naming-sts-url=%protocol://%host:%port%uri/sts, iplanet-am-naming-auth-class=com.sun.identity.authentication.server.AuthXMLHandler}
+amNaming:03/06/2019 03:59:07:686 PM MSK: Thread[main,5,main]: TransactionId[unknown]
+Server Id Table -> {%protocol://%host:%port%uri/loggingservice=iplanet-am-naming-logging-url, =openam-am-platform-site-names-list, %protocol://%host:%port%uri/AssertionManagerServlet/AssertionManagerIF=iplanet-am-naming-samlassertionmanager-url, 01=iplanet-am-platform-site-id-list, com.iplanet.dpro.session.service.SessionRequestHandler=iplanet-am-naming-session-class, %protocol://%host:%port%uri/SAMLAwareServlet=iplanet-am-naming-samlawareservlet-url, %protocol://%host:%port%uri/sts/mex=sun-naming-sts-mex-url, %protocol://%host:%port%uri/SAMLPOSTProfileServlet=iplanet-am-naming-samlpostservlet-url, %protocol://%host:%port%uri/sessionservice=iplanet-am-naming-session-url, com.sun.identity.policy.remote.PolicyRequestHandler=iplanet-am-naming-policy-class, %protocol://%host:%port%uri/sts=sun-naming-sts-url, %protocol://%host:%port%uri/policyservice=iplanet-am-naming-policy-url, com.iplanet.dpro.profile.agent.ProfileService=iplanet-am-naming-profile-class, %protocol://%host:%port%uri/identity/=sun-naming-idsvcs-rest-url, 01|01=iplanet-am-platform-lb-cookie-value-list, %protocol://%host:%port%uri/SAMLSOAPReceiver=iplanet-am-naming-samlsoapreceiver-url, %protocol://%host:%port%uri/profileservice=iplanet-am-naming-profile-url, %protocol://%host:%port%uri/FSAssertionManagerServlet/FSAssertionManagerIF=iplanet-am-naming-fsassertionmanager-url, %protocol://%host:%port%uri/identityservices/=sun-naming-idsvcs-jaxws-url, %protocol://%host:%port%uri/jaxrpc/=iplanet-am-naming-jaxrpc-url, %protocol://%host:%port%uri/SecurityTokenManagerServlet/SecurityTokenManagerIF=iplanet-am-naming-securitytokenmanager-url, com.sun.identity.authentication.server.AuthXMLHandler=iplanet-am-naming-auth-class, com.sun.identity.log.service.LogService=iplanet-am-naming-logging-class, %protocol://%host:%port%uri/authservice=iplanet-am-naming-auth-url, iplanet-am-naming-service=serviceObjectClasses, http://jakesmokie.ru:10001/openam=01}
+amNaming:03/06/2019 03:59:07:694 PM MSK: Thread[main,5,main]: TransactionId[unknown]
+Site Id Table -> {01=01}
+amNaming:03/06/2019 03:59:07:701 PM MSK: Thread[main,5,main]: TransactionId[unknown]
+Site Name to Id Table -> {}
+amNaming:03/06/2019 03:59:07:709 PM MSK: Thread[main,5,main]: TransactionId[unknown]
+Platform Servers -> [http://jakesmokie.ru:10001/openam]
+amNaming:03/06/2019 03:59:07:716 PM MSK: Thread[main,5,main]: TransactionId[unknown]
+Platform Server IDs -> [01]
+amNaming:03/06/2019 03:59:07:724 PM MSK: Thread[main,5,main]: TransactionId[unknown]
+Server Properties are changed : 
+amNaming:03/06/2019 03:59:07:730 PM MSK: Thread[main,5,main]: TransactionId[unknown]
+com.iplanet.am.server.protocol : http
+amNaming:03/06/2019 03:59:07:738 PM MSK: Thread[main,5,main]: TransactionId[unknown]
+com.iplanet.am.server.host : jakesmokie.ru
+amNaming:03/06/2019 03:59:07:746 PM MSK: Thread[main,5,main]: TransactionId[unknown]
+com.iplanet.am.server.port : 10001
+amNaming:03/06/2019 03:59:07:754 PM MSK: Thread[main,5,main]: TransactionId[unknown]
+com.iplanet.am.services.deploymentDescriptor : /openam
+amNaming:03/06/2019 03:59:07:761 PM MSK: Thread[main,5,main]: TransactionId[unknown]
+WebtopNaming : SiteID for 01 is 01
+amNaming:03/06/2019 03:59:07:818 PM MSK: Thread[main,5,main]: TransactionId[unknown]
+SessionIDCorrector: Mapping Server 01 to Site null
+amNaming:03/06/2019 03:59:07:823 PM MSK: Thread[main,5,main]: TransactionId[unknown]
+SessionIDCorrector: Mapping complete
+amNaming:03/06/2019 03:59:07:837 PM MSK: Thread[main,5,main]: TransactionId[unknown]
+In SiteMonitor.getAvailableSites()
+amNaming:03/06/2019 03:59:07:837 PM MSK: Thread[SystemTimer,5,main]: TransactionId[unknown]
+SiteStatusCheckThreadImpl.doCheckSiteStatus: check http://jakesmokie.ru:10001/openam/namingservice
+amNaming:03/06/2019 03:59:07:842 PM MSK: Thread[main,5,main]: TransactionId[unknown]
+availableSiteList : [01]
+amNaming:03/06/2019 03:59:07:848 PM MSK: Thread[main,5,main]: TransactionId[unknown]
+In SiteMonitor.isAvailable()
+amNaming:03/06/2019 03:59:07:853 PM MSK: Thread[SystemTimer,5,main]: TransactionId[unknown]
+URLChecker.checkSocketConnection() returning true for http://jakesmokie.ru:10001/openam/namingservice
+amNaming:03/06/2019 03:59:07:853 PM MSK: Thread[main,5,main]: TransactionId[unknown]
+SiteID http://jakesmokie.ru:10001/openam/namingservice is UP.
+amNaming:03/06/2019 03:59:07:866 PM MSK: Thread[SystemTimer,5,main]: TransactionId[unknown]
+URLChecker.check() : Http connection took 12 ms
+amNaming:03/06/2019 03:59:07:874 PM MSK: Thread[SystemTimer,5,main]: TransactionId[unknown]
+URLChecker.check() :  setting status to AVAILABLE for http://jakesmokie.ru:10001/openam/namingservice
+amNaming:03/06/2019 03:59:07:884 PM MSK: Thread[main,5,main]: TransactionId[unknown]
+SiteID table -> {01=01}
+amNaming:03/06/2019 03:59:07:890 PM MSK: Thread[main,5,main]: TransactionId[unknown]
+WebtopNaming.updateLBCookieValueMappings():LBCookieValues table -> {01=01}
+amNaming:03/06/2019 03:59:07:896 PM MSK: Thread[main,5,main]: TransactionId[unknown]
+Naming table -> {iplanet-am-platform-site-id-list=01, iplanet-am-naming-policy-url=%protocol://%host:%port%uri/policyservice, iplanet-am-naming-session-class=com.iplanet.dpro.session.service.SessionRequestHandler, iplanet-am-naming-session-url=%protocol://%host:%port%uri/sessionservice, iplanet-am-naming-securitytokenmanager-url=%protocol://%host:%port%uri/SecurityTokenManagerServlet/SecurityTokenManagerIF, iplanet-am-naming-samlawareservlet-url=%protocol://%host:%port%uri/SAMLAwareServlet, serviceObjectClasses=iplanet-am-naming-service, iplanet-am-naming-auth-url=%protocol://%host:%port%uri/authservice, iplanet-am-naming-profile-class=com.iplanet.dpro.profile.agent.ProfileService, iplanet-am-naming-samlassertionmanager-url=%protocol://%host:%port%uri/AssertionManagerServlet/AssertionManagerIF, 01=http://jakesmokie.ru:10001/openam, iplanet-am-naming-policy-class=com.sun.identity.policy.remote.PolicyRequestHandler, iplanet-am-naming-jaxrpc-url=%protocol://%host:%port%uri/jaxrpc/, iplanet-am-naming-logging-class=com.sun.identity.log.service.LogService, iplanet-am-naming-profile-url=%protocol://%host:%port%uri/profileservice, sun-naming-idsvcs-jaxws-url=%protocol://%host:%port%uri/identityservices/, iplanet-am-naming-samlsoapreceiver-url=%protocol://%host:%port%uri/SAMLSOAPReceiver, sun-naming-idsvcs-rest-url=%protocol://%host:%port%uri/identity/, iplanet-am-platform-lb-cookie-value-list=01|01, iplanet-am-naming-logging-url=%protocol://%host:%port%uri/loggingservice, iplanet-am-naming-fsassertionmanager-url=%protocol://%host:%port%uri/FSAssertionManagerServlet/FSAssertionManagerIF, openam-am-platform-site-names-list=, iplanet-am-platform-server-list=http://jakesmokie.ru:10001/openam, sun-naming-sts-mex-url=%protocol://%host:%port%uri/sts/mex, iplanet-am-naming-samlpostservlet-url=%protocol://%host:%port%uri/SAMLPOSTProfileServlet, sun-naming-sts-url=%protocol://%host:%port%uri/sts, iplanet-am-naming-auth-class=com.sun.identity.authentication.server.AuthXMLHandler}
+amNaming:03/06/2019 03:59:07:905 PM MSK: Thread[main,5,main]: TransactionId[unknown]
+Server Id Table -> {%protocol://%host:%port%uri/loggingservice=iplanet-am-naming-logging-url, =openam-am-platform-site-names-list, %protocol://%host:%port%uri/AssertionManagerServlet/AssertionManagerIF=iplanet-am-naming-samlassertionmanager-url, 01=iplanet-am-platform-site-id-list, com.iplanet.dpro.session.service.SessionRequestHandler=iplanet-am-naming-session-class, %protocol://%host:%port%uri/SAMLAwareServlet=iplanet-am-naming-samlawareservlet-url, %protocol://%host:%port%uri/sts/mex=sun-naming-sts-mex-url, %protocol://%host:%port%uri/SAMLPOSTProfileServlet=iplanet-am-naming-samlpostservlet-url, %protocol://%host:%port%uri/sessionservice=iplanet-am-naming-session-url, com.sun.identity.policy.remote.PolicyRequestHandler=iplanet-am-naming-policy-class, %protocol://%host:%port%uri/sts=sun-naming-sts-url, %protocol://%host:%port%uri/policyservice=iplanet-am-naming-policy-url, com.iplanet.dpro.profile.agent.ProfileService=iplanet-am-naming-profile-class, %protocol://%host:%port%uri/identity/=sun-naming-idsvcs-rest-url, 01|01=iplanet-am-platform-lb-cookie-value-list, %protocol://%host:%port%uri/SAMLSOAPReceiver=iplanet-am-naming-samlsoapreceiver-url, %protocol://%host:%port%uri/profileservice=iplanet-am-naming-profile-url, %protocol://%host:%port%uri/FSAssertionManagerServlet/FSAssertionManagerIF=iplanet-am-naming-fsassertionmanager-url, %protocol://%host:%port%uri/identityservices/=sun-naming-idsvcs-jaxws-url, %protocol://%host:%port%uri/jaxrpc/=iplanet-am-naming-jaxrpc-url, %protocol://%host:%port%uri/SecurityTokenManagerServlet/SecurityTokenManagerIF=iplanet-am-naming-securitytokenmanager-url, com.sun.identity.authentication.server.AuthXMLHandler=iplanet-am-naming-auth-class, com.sun.identity.log.service.LogService=iplanet-am-naming-logging-class, %protocol://%host:%port%uri/authservice=iplanet-am-naming-auth-url, iplanet-am-naming-service=serviceObjectClasses, http://jakesmokie.ru:10001/openam=01}
+amNaming:03/06/2019 03:59:07:911 PM MSK: Thread[main,5,main]: TransactionId[unknown]
+Site Id Table -> {01=01}
+amNaming:03/06/2019 03:59:07:916 PM MSK: Thread[main,5,main]: TransactionId[unknown]
+Site Name to Id Table -> {}
+amNaming:03/06/2019 03:59:07:923 PM MSK: Thread[main,5,main]: TransactionId[unknown]
+Platform Servers -> [http://jakesmokie.ru:10001/openam]
+amNaming:03/06/2019 03:59:07:931 PM MSK: Thread[main,5,main]: TransactionId[unknown]
+Platform Server IDs -> [01]
+amNaming:03/06/2019 03:59:07:938 PM MSK: Thread[main,5,main]: TransactionId[unknown]
+Server Properties are changed : 
+amNaming:03/06/2019 03:59:07:945 PM MSK: Thread[main,5,main]: TransactionId[unknown]
+com.iplanet.am.server.protocol : http
+amNaming:03/06/2019 03:59:07:953 PM MSK: Thread[main,5,main]: TransactionId[unknown]
+com.iplanet.am.server.host : jakesmokie.ru
+amNaming:03/06/2019 03:59:07:959 PM MSK: Thread[main,5,main]: TransactionId[unknown]
+com.iplanet.am.server.port : 10001
+amNaming:03/06/2019 03:59:07:965 PM MSK: Thread[main,5,main]: TransactionId[unknown]
+com.iplanet.am.services.deploymentDescriptor : /openam
+amNaming:03/06/2019 03:59:07:971 PM MSK: Thread[main,5,main]: TransactionId[unknown]
+WebtopNaming : SiteID for 01 is 01
+amNaming:03/06/2019 03:59:07:977 PM MSK: Thread[main,5,main]: TransactionId[unknown]
+SessionIDCorrector: Mapping Server 01 to Site null
+amNaming:03/06/2019 03:59:07:983 PM MSK: Thread[main,5,main]: TransactionId[unknown]
+SessionIDCorrector: Mapping complete
+amNaming:03/06/2019 03:59:07:990 PM MSK: Thread[main,5,main]: TransactionId[unknown]
+In SiteMonitor.getAvailableSites()
+amNaming:03/06/2019 03:59:07:996 PM MSK: Thread[main,5,main]: TransactionId[unknown]
+availableSiteList : [01]
+amSecurity:03/06/2019 03:59:08:688 PM MSK: Thread[main,5,main]: TransactionId[unknown]
+AdminTokenAction::run Unable to get SSOToken from serverconfig.xml
+amSecurity:03/06/2019 03:59:08:711 PM MSK: Thread[main,5,main]: TransactionId[unknown]
+App user name: UrlAccessAgent
+amNaming:03/06/2019 03:59:08:744 PM MSK: Thread[main,5,main]: TransactionId[unknown]
+In SiteMonitor.getAvailableSites()
+amNaming:03/06/2019 03:59:08:751 PM MSK: Thread[main,5,main]: TransactionId[unknown]
+availableSiteList : [01]
+amNaming:03/06/2019 03:59:08:758 PM MSK: Thread[main,5,main]: TransactionId[unknown]
+In SiteMonitor.isAvailable()
+amNaming:03/06/2019 03:59:08:765 PM MSK: Thread[main,5,main]: TransactionId[unknown]
+SiteID http://jakesmokie.ru:10001/openam/authservice is UP.
+PLLClient:03/06/2019 03:59:08:848 PM MSK: Thread[main,5,main]: TransactionId[unknown]
+header in parseCookies(): {X-Frame-Options=[SAMEORIGIN], null=[HTTP/1.1 200], Set-Cookie=[amlbcookie=01; Domain=jakesmokie.ru; Path=/, JSESSIONID=7F9D7313614A0C0FFAB86CE8D764359A; Path=/openam; HttpOnly], Content-Length=[605], Date=[Wed, 06 Mar 2019 12:59:06 GMT]}
+PLLClient:03/06/2019 03:59:08:855 PM MSK: Thread[main,5,main]: TransactionId[unknown]
+cookie: amlbcookie=01; Domain=jakesmokie.ru; Path=/
+amNaming:03/06/2019 03:59:17:881 PM MSK: Thread[SystemTimer,5,main]: TransactionId[unknown]
+In SiteMonitor.updateSiteList()
+amNaming:03/06/2019 03:59:17:888 PM MSK: Thread[SystemTimer,5,main]: TransactionId[unknown]
+availableSiteList : [01]
+amNaming:03/06/2019 03:59:37:000 PM MSK: Thread[SystemTimer,5,main]: TransactionId[unknown]
+URLChecker.run() : monitoring URL http://jakesmokie.ru:10001/openam/namingservice
+amNaming:03/06/2019 03:59:37:016 PM MSK: Thread[SystemTimer,5,main]: TransactionId[unknown]
+URLChecker.checkSocketConnection() returning true for http://jakesmokie.ru:10001/openam/namingservice
+amNaming:03/06/2019 03:59:37:053 PM MSK: Thread[SystemTimer,5,main]: TransactionId[unknown]
+URLChecker.check() : Http connection took 23 ms
+amNaming:03/06/2019 03:59:37:067 PM MSK: Thread[SystemTimer,5,main]: TransactionId[unknown]
+URLChecker.check() :  setting status to AVAILABLE for http://jakesmokie.ru:10001/openam/namingservice
