@@ -1,25 +1,0 @@
-
-T
-squid:S106O"9Replace this use of System.out or System.err by a logger.(öõ¦ııÿÿÿÿ
-Tsquid:UselessImportCheck'"0Remove this unused import 'java.io.InputStream'.(¹»º
-Tsquid:S11979"8Move the array designator from the variable to the type.(ùï¾ÿÿÿÿÿ
-O
-squid:S106`"9Replace this use of System.out or System.err by a logger.(¨×¨ˆ
-O
-squid:S106h"9Replace this use of System.out or System.err by a logger.(Œƒğ°
-Vsquid:UselessImportCheck+"-Remove this unused import 'java.util.Arrays'.(î–˜Éüÿÿÿÿ
-\squid:UselessImportCheck*"8Remove this unused import 'java.io.PushbackInputStream'.(øÈ­ı
-Fsquid:S1148R"#Use a logger to log this exception.(€ÉÔ…ıÿÿÿÿ8ñœĞ©“-
-Qsquid:S1191 "5Use classes from the Java API instead of Sun classes.(ìâªÌşÿÿÿÿ
-T
-squid:S106J"9Replace this use of System.out or System.err by a logger.(á†­ßúÿÿÿÿ
-T
-squid:S106W"9Replace this use of System.out or System.err by a logger.(şÈõ‰øÿÿÿÿ
-O
-squid:S106;"9Replace this use of System.out or System.err by a logger.(Œ¯˜é
-O
-squid:S106m"9Replace this use of System.out or System.err by a logger.(¬ğÀÑ
-T
-squid:S106A"9Replace this use of System.out or System.err by a logger.(ò‚ËÀûÿÿÿÿ
-T
-squid:S106E"9Replace this use of System.out or System.err by a logger.(Šşßóùÿÿÿÿ

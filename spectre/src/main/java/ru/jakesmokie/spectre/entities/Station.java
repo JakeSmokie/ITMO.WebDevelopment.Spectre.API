@@ -1,25 +1,22 @@
 package ru.jakesmokie.spectre.entities;
 
 import lombok.Data;
+import ru.jakesmokie.spectre.providers.gson.SkipSerialisation;
 
-import javax.persistence.Entity;
-import javax.persistence.GeneratedValue;
-import javax.persistence.Id;
-import javax.persistence.ManyToOne;
+import javax.persistence.*;
 
 @Entity
 @Data
 public class Station {
     @Id
-    @GeneratedValue
+    @GeneratedValue(strategy = GenerationType.IDENTITY)
     private int id;
-
-    @ManyToOne
-    private Planet planet;
-
     private String name;
-    private String description;
 
     public Station() {
+    }
+
+    public Station(String name) {
+        this.name = name;
     }
 }

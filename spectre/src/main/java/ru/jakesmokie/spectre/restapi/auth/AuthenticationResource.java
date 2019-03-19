@@ -1,9 +1,10 @@
 package ru.jakesmokie.spectre.restapi.auth;
 
 import lombok.val;
+import org.eclipse.persistence.annotations.Cache;
 import ru.jakesmokie.spectre.beans.AuthenticationService;
-import ru.jakesmokie.spectre.restapi.auth.entities.IsAuthorizedResponse;
-import ru.jakesmokie.spectre.restapi.auth.entities.LoginResponse;
+import ru.jakesmokie.spectre.restapi.responses.ApiResponse;
+import ru.jakesmokie.spectre.restapi.responses.SuccessfulApiResponse;
 
 import javax.ejb.EJB;
 import javax.ejb.Singleton;
@@ -14,29 +15,52 @@ import javax.ws.rs.core.MediaType;
 @Singleton
 public class AuthenticationResource {
     @EJB
-    private AuthenticationService authenticationService;
+    private AuthenticationService auth;
 
     @Path("/isauthorized")
     @GET
     @Produces(MediaType.APPLICATION_JSON)
-    public IsAuthorizedResponse isAuthorized(@QueryParam("token") String token) {
-        return new IsAuthorizedResponse(authenticationService.isValidToken(token));
+    public SuccessfulApiResponse isAuthorized(@QueryParam("token") String token) {
+        return new SuccessfulApiResponse(auth.isValidToken(token));
+    }
+
+    @Path("/iskeykeeper")
+    @GET
+    @Produces(MediaType.APPLICATION_JSON)
+    public SuccessfulApiResponse isKeykeeper(@QueryParam("token") String token) {
+        return new SuccessfulApiResponse(auth.isKeykeeper(token));
     }
 
     @Path("/login")
     @POST
     @Produces(MediaType.APPLICATION_JSON)
-    public LoginResponse login(
+    public ApiResponse login(
             @QueryParam("login") String login,
-            @QueryParam("password") String password,
-            @QueryParam("realm") String realm) {
-        val token = authenticationService.login(login, password, realm);
-        return new LoginResponse(token.getTokenID().toString());
+            @QueryParam("password") String password
+    ) {
+        val response = auth.login(login, password);
+        val tokenId = response.getAsJsonPrimitive("tokenId");
+
+        return new ApiResponse(tokenId != null, response);
     }
 
     @Path("/logout")
     @POST
-    public void logout(@QueryParam("token") String token) {
-        authenticationService.logout(token);
+    @Produces(MediaType.APPLICATION_JSON)
+    public SuccessfulApiResponse logout(@QueryParam("token") String token) {
+        val response = auth.logout(token);
+        return new SuccessfulApiResponse(response);
     }
+
+    @Path("/getattributes")
+    @POST
+    @Produces(MediaType.APPLICATION_JSON)
+    public SuccessfulApiResponse getAttributes(
+            @QueryParam("token") String token
+    ) {
+        val response = auth.getSessionProperties(token);
+        return new SuccessfulApiResponse(response);
+    }
+
+
 }

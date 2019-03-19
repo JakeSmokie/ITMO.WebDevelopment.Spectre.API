@@ -3,15 +3,6 @@
          xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
          xsi:schemaLocation="http://xmlns.jcp.org/xml/ns/javaee http://xmlns.jcp.org/xml/ns/javaee/web-app_4_0.xsd"
          version="4.0">
-    <servlet>
-        <servlet-name>helloWorldServlet</servlet-name>
-        <servlet-class>ru.jakesmokie.spectre.HelloWorld</servlet-class>
-    </servlet>
-
-    <servlet-mapping>
-        <servlet-name>helloWorldServlet</servlet-name>
-        <url-pattern>/hello</url-pattern>
-    </servlet-mapping>
 
     <servlet>
         <servlet-name>jersey</servlet-name>
@@ -20,7 +11,11 @@
         </servlet-class>
         <init-param>
             <param-name>com.sun.jersey.config.property.packages</param-name>
-            <param-value>ru.jakesmokie.spectre.restapi</param-value>
+            <param-value>ru.jakesmokie.spectre</param-value>
+        </init-param>
+        <init-param>
+            <param-name>com.sun.jersey.spi.container.ResourceFilters</param-name>
+            <param-value>ru.jakesmokie.spectre.providers.CacheFilterFactory</param-value>
         </init-param>
 
         <load-on-startup>1</load-on-startup>

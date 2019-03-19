@@ -9,7 +9,7 @@ import java.util.Date;
 @Data
 public class Story {
     @Id
-    @GeneratedValue
+    @GeneratedValue(strategy = GenerationType.IDENTITY)
     private int id;
 
     @ManyToOne
