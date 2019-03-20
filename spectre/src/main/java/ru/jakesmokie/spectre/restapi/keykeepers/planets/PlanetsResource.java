@@ -7,10 +7,7 @@ import org.eclipse.persistence.config.CacheUsage;
 import org.eclipse.persistence.config.QueryHints;
 import ru.jakesmokie.spectre.beans.AuthenticationService;
 import ru.jakesmokie.spectre.beans.DatabaseService;
-import ru.jakesmokie.spectre.entities.Planet;
-import ru.jakesmokie.spectre.entities.Race;
-import ru.jakesmokie.spectre.entities.RaceAtPlanet;
-import ru.jakesmokie.spectre.entities.Station;
+import ru.jakesmokie.spectre.entities.*;
 import ru.jakesmokie.spectre.restapi.keykeepers.planets.entities.*;
 import ru.jakesmokie.spectre.restapi.responses.ApiResponse;
 import ru.jakesmokie.spectre.restapi.responses.FailedApiResponse;
@@ -20,7 +17,6 @@ import javax.ejb.EJB;
 import javax.ejb.Singleton;
 import javax.ws.rs.*;
 import javax.ws.rs.core.MediaType;
-import java.util.ArrayList;
 
 @Path("/keykeepers/planets")
 @Data
@@ -68,13 +64,37 @@ public class PlanetsResource {
         val em = databaseService.getManager();
         em.getTransaction().begin();
 
-        val managedPlanet = em.find(Planet.class, parameters.getId());
-        val stations = managedPlanet.getStations();
-        stations.add(new Station("Новая станция"));
+        val planet = em.find(Planet.class, parameters.getId());
+        val stations = planet.getStations();
+
+        val station = new Station("Новая станция");
+        station.setPlanet(planet);
+        stations.add(station);
+        em.persist(station);
 
         em.getTransaction().commit();
 
-        return new SuccessfulApiResponse("Success");
+        return new SuccessfulApiResponse(station);
+    }
+
+    @Path("/updatestationname")
+    @POST
+    @Consumes(MediaType.APPLICATION_JSON)
+    @Produces(MediaType.APPLICATION_JSON)
+    @SneakyThrows
+    public ApiResponse updateStationName(StationUpdatingParameters parameters) {
+        if (!auth.isKeykeeper(parameters.getToken())) {
+            return notAKeykeeperError;
+        }
+
+        val em = databaseService.getManager();
+        em.getTransaction().begin();
+
+        val station = em.find(Station.class, parameters.getStation());
+        station.setName(parameters.getName());
+
+        em.getTransaction().commit();
+        return new SuccessfulApiResponse(station);
     }
 
     @Path("/savenamedesc")
@@ -112,6 +132,42 @@ public class PlanetsResource {
 
         val managedPlanet = em.find(Planet.class, parameters.getId());
         managedPlanet.setDisabled(!managedPlanet.isDisabled());
+
+        em.getTransaction().commit();
+        return new SuccessfulApiResponse("Success");
+    }
+
+    @Path("/updateracedangerlevel")
+    @POST
+    @Consumes(MediaType.APPLICATION_JSON)
+    @Produces(MediaType.APPLICATION_JSON)
+    @SneakyThrows
+    public ApiResponse updateRaceDangerLevel(RaceLevelUpdatingParameters parameters) {
+        if (!auth.isKeykeeper(parameters.getToken())) {
+            return notAKeykeeperError;
+        }
+
+
+        val em = databaseService.getManager();
+        em.getTransaction().begin();
+
+        val key = new RaceAtPlanetKey(parameters.getRace(), parameters.getPlanet());
+        val raceAtPlanet = em.find(RaceAtPlanet.class, key);
+
+        if (raceAtPlanet != null) {
+            raceAtPlanet.setDangerLevel(parameters.getLevel());
+        } else {
+            val planet = em.find(Planet.class, parameters.getPlanet());
+            val newRaceAtPlanet = new RaceAtPlanet(
+                    key,
+                    parameters.getLevel(),
+                    planet,
+                    em.find(Race.class, parameters.getRace())
+            );
+
+            em.persist(newRaceAtPlanet);
+            planet.getRaces().add(newRaceAtPlanet);
+        }
 
         em.getTransaction().commit();
         return new SuccessfulApiResponse("Success");

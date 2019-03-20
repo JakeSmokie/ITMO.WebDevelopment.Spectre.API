@@ -18,11 +18,14 @@ public class Race {
     @Column(length = 10000)
     private String description;
 
-
     @SkipSerialisation
-    @OneToMany
-    private List<RaceAtPlanet> planets = new ArrayList<>();
+    @OneToMany(mappedBy = "race")
+    private List<RaceAtPlanet> planets;
 
     public Race() {
+    }
+
+    public Race(String name) {
+        this.name = name;
     }
 }

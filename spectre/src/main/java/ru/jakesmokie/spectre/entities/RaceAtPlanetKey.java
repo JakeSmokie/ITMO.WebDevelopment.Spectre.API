@@ -2,6 +2,7 @@ package ru.jakesmokie.spectre.entities;
 
 import lombok.Data;
 
+import javax.persistence.Column;
 import javax.persistence.Embeddable;
 import java.io.Serializable;
 
@@ -10,4 +11,12 @@ import java.io.Serializable;
 public class RaceAtPlanetKey implements Serializable {
     private int race;
     private int planet;
+
+    public RaceAtPlanetKey() {
+    }
+
+    public RaceAtPlanetKey(int race, int planet) {
+        this.race = race;
+        this.planet = planet;
+    }
 }

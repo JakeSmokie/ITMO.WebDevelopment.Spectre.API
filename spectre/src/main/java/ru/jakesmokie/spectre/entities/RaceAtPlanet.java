@@ -12,10 +12,25 @@ public class RaceAtPlanet {
     private RaceAtPlanetKey id;
     private int dangerLevel;
 
-    public RaceAtPlanet(int dangerLevel) {
-        this.dangerLevel = dangerLevel;
-    }
+    @ManyToOne
+    @SkipSerialisation
+    @MapsId
+    @JoinColumn(name = "planet")
+    private Planet planet;
+
+    @ManyToOne
+    @SkipSerialisation
+    @MapsId
+    @JoinColumn(name = "race")
+    private Race race;
 
     public RaceAtPlanet() {
+    }
+
+    public RaceAtPlanet(RaceAtPlanetKey id, int dangerLevel, Planet planet, Race race) {
+        this.id = id;
+        this.dangerLevel = dangerLevel;
+        this.planet = planet;
+        this.race = race;
     }
 }

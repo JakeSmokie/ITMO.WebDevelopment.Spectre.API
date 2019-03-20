@@ -21,11 +21,11 @@ public class Planet {
     private String description;
     private boolean disabled;
 
-    @OneToMany
-    private List<RaceAtPlanet> races = new ArrayList<>();
+    @OneToMany(mappedBy = "planet")
+    private List<RaceAtPlanet> races;
 
-    @OneToMany
-    private List<Station> stations = new ArrayList<>();
+    @OneToMany(mappedBy = "planet")
+    private List<Station> stations;
 
     public Planet() {
     }

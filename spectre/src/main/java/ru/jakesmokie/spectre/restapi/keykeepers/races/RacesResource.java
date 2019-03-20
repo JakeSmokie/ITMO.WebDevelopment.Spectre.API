@@ -9,23 +9,27 @@ import ru.jakesmokie.spectre.beans.AuthenticationService;
 import ru.jakesmokie.spectre.beans.DatabaseService;
 import ru.jakesmokie.spectre.entities.Planet;
 import ru.jakesmokie.spectre.entities.Race;
+import ru.jakesmokie.spectre.restapi.keykeepers.planets.entities.PlanetAddingParameters;
+import ru.jakesmokie.spectre.restapi.keykeepers.races.entities.RaceAddingParameters;
+import ru.jakesmokie.spectre.restapi.keykeepers.races.entities.RaceUpdatingParameters;
 import ru.jakesmokie.spectre.restapi.responses.ApiResponse;
+import ru.jakesmokie.spectre.restapi.responses.FailedApiResponse;
 import ru.jakesmokie.spectre.restapi.responses.SuccessfulApiResponse;
 
 import javax.ejb.EJB;
 import javax.ejb.Singleton;
-import javax.ws.rs.GET;
-import javax.ws.rs.Path;
-import javax.ws.rs.Produces;
-import javax.ws.rs.QueryParam;
+import javax.ws.rs.*;
 import javax.ws.rs.core.MediaType;
 
 @Path("/keykeepers/races")
 @Data
 @Singleton
 public class RacesResource {
+    private final FailedApiResponse notAKeykeeperError =
+            new FailedApiResponse("Not a keykeeper");
+
     @EJB
-    private AuthenticationService authenticationService;
+    private AuthenticationService auth;
 
     @EJB
     private DatabaseService databaseService;
@@ -38,9 +42,9 @@ public class RacesResource {
     public ApiResponse get(
             @QueryParam("token") String token
     ) {
-//        if (!auth.isKeykeeper(token)) {
-//            return notAKeykeeperError;
-//        }
+        if (!auth.isKeykeeper(token)) {
+            return notAKeykeeperError;
+        }
 
         val em = databaseService.getManager();
         val races = em.createQuery("select r from Race r", Race.class)
@@ -49,4 +53,45 @@ public class RacesResource {
 
         return new SuccessfulApiResponse(races);
     }
+
+    @Path("/savename")
+    @POST
+    @Consumes(MediaType.APPLICATION_JSON)
+    @Produces(MediaType.APPLICATION_JSON)
+    @SneakyThrows
+    public ApiResponse saveName(RaceUpdatingParameters parameters) {
+        if (!auth.isKeykeeper(parameters.getToken())) {
+            return notAKeykeeperError;
+        }
+
+        val em = databaseService.getManager();
+        em.getTransaction().begin();
+
+        val race = em.find(Race.class, parameters.getId());
+        race.setName(parameters.getName());
+
+        em.getTransaction().commit();
+        return new SuccessfulApiResponse("Success");
+    }
+
+    @Path("/addrace")
+    @POST
+    @Consumes(MediaType.APPLICATION_JSON)
+    @Produces(MediaType.APPLICATION_JSON)
+    @SneakyThrows
+    public ApiResponse addPlanet(RaceAddingParameters parameters) {
+        if (!auth.isKeykeeper(parameters.getToken())) {
+            return notAKeykeeperError;
+        }
+
+        val em = databaseService.getManager();
+        val race = new Race("Новая раса");
+
+        em.getTransaction().begin();
+        em.persist(race);
+        em.getTransaction().commit();
+
+        return new SuccessfulApiResponse(race);
+    }
+
 }

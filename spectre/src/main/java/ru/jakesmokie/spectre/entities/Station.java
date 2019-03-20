@@ -13,6 +13,10 @@ public class Station {
     private int id;
     private String name;
 
+    @ManyToOne
+    @SkipSerialisation
+    private Planet planet;
+
     public Station() {
     }
 
