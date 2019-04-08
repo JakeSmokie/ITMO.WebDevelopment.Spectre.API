@@ -68,3 +68,7 @@ i
 Wspectre/src/main/java/ru/jakesmokie/spectre/restapi/keykeepers/races/RacesResource.java,8\e\8e902067da2084485a3bc4bca5edd20de89a73a1
 U
 %spectre/web/WEB-INF/glassfish-web.xml,f\a\fa48fb90fd044c56506768e41ad7275dee0781c3
+†
+Vspectre/src/main/java/ru/jakesmokie/spectre/restapi/tourists/TouristsAuthResource.java,6\4\645ee5bc40fbdb48ffca5e42419641d3fbc44984
+—
+gspectre/src/main/java/ru/jakesmokie/spectre/restapi/keykeepers/tourists/KeykeepersTouristsResource.java,8\b\8bcc92af1fb36f268927e76a9144ea2d2fbcee83

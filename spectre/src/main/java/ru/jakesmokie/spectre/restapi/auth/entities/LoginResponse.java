@@ -1,6 +1,5 @@
 package ru.jakesmokie.spectre.restapi.auth.entities;
 
-import com.google.gson.Gson;
 import lombok.Data;
 
 import javax.xml.bind.annotation.XmlRootElement;

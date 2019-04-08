@@ -1,6 +1,5 @@
 package ru.jakesmokie.spectre.restapi.keykeepers.planets;
 
-import lombok.Data;
 import lombok.SneakyThrows;
 import lombok.val;
 import org.eclipse.persistence.config.CacheUsage;
@@ -19,7 +18,6 @@ import javax.ws.rs.*;
 import javax.ws.rs.core.MediaType;
 
 @Path("/keykeepers/planets")
-@Data
 @Singleton
 public class PlanetsResource {
     private final FailedApiResponse notAKeykeeperError =
@@ -30,6 +28,25 @@ public class PlanetsResource {
 
     @EJB
     private DatabaseService databaseService;
+
+    @Path("/getplanets")
+    @GET
+    @Produces(MediaType.APPLICATION_JSON)
+    @SneakyThrows
+    public ApiResponse get(
+            @QueryParam("token") String token
+    ) {
+        if (!auth.isValidToken(token)) {
+            return notAKeykeeperError;
+        }
+
+        val em = databaseService.getManager();
+        val planets = em.createQuery("select p from Planet p", Planet.class)
+                .setHint(QueryHints.CACHE_USAGE, CacheUsage.DoNotCheckCache)
+                .getResultList();
+
+        return new SuccessfulApiResponse(planets);
+    }
 
     @Path("/addplanet")
     @POST
@@ -173,23 +190,4 @@ public class PlanetsResource {
         return new SuccessfulApiResponse("Success");
     }
 
-
-    @Path("/getplanets")
-    @GET
-    @Produces(MediaType.APPLICATION_JSON)
-    @SneakyThrows
-    public ApiResponse get(
-            @QueryParam("token") String token
-    ) {
-        if (!auth.isKeykeeper(token)) {
-            return notAKeykeeperError;
-        }
-
-        val em = databaseService.getManager();
-        val planets = em.createQuery("select p from Planet p", Planet.class)
-                .setHint(QueryHints.CACHE_USAGE, CacheUsage.DoNotCheckCache)
-                .getResultList();
-
-        return new SuccessfulApiResponse(planets);
-    }
 }

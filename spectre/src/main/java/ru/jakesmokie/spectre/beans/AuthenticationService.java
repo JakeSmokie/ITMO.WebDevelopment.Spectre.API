@@ -21,45 +21,24 @@ import org.apache.http.util.EntityUtils;
 
 import javax.ejb.Singleton;
 import java.io.IOException;
+import java.util.Locale;
 
 @Singleton
 public class AuthenticationService {
     private final HttpClient client = HttpClients.createDefault();
+    private final Locale locale = Locale.forLanguageTag("ru-RU");
 
     @SneakyThrows
     public JsonObject login(String login, String password) {
         val post = new HttpPost("http://jakesmokie.ru:8080/am/json/realms/root/authenticate");
 
         post.addHeader("Content-Type", "application/json");
+        post.addHeader("X-OpenAM-Username", login);
+        post.addHeader("X-OpenAM-Password", password);
         post.addHeader("Accept-API-Version", "resource=2.0, protocol=1.0");
         post.addHeader("Cache-Control", "no-cache");
 
-        val response = entityToJson(client.execute(post).getEntity()).getAsJsonObject();
-
-        return response;
-
-//        val inLogin = response.getAsJsonArray("callbacks")
-//                .get(0).getAsJsonObject()
-//                .getAsJsonArray("input")
-//                .get(0).getAsJsonObject();
-//
-//        inLogin.remove("value");
-//        inLogin.addProperty("value", login);
-//
-//        val inPass = response.getAsJsonArray("callbacks")
-//                .get(1).getAsJsonObject()
-//                .getAsJsonArray("input")
-//                .get(0).getAsJsonObject();
-//
-//        inPass.remove("value");
-//        inPass.addProperty("value", password);
-//
-//        val confirm = new HttpPost("http://jakesmokie.ru:8080/am/json/realms/root/authenticate");
-//        confirm.setEntity(new StringEntity(response.toString()));
-//        confirm.addHeader("Content-Type", "application/json");
-//        confirm.addHeader("Accept-API-Version", "resource=2.0, protocol=1.0");
-//
-//        return entityToJson(client.execute(confirm).getEntity()).getAsJsonObject();
+        return entityToJson(client.execute(post).getEntity()).getAsJsonObject();
     }
 
     @SneakyThrows
@@ -73,7 +52,7 @@ public class AuthenticationService {
     @SneakyThrows
     public String getUid(String token) {
         val response = doValidate(token);
-        return response.getAsJsonPrimitive("uid").getAsString();
+        return response.getAsJsonPrimitive("uid").getAsString().toLowerCase(locale);
     }
 
     @SneakyThrows
@@ -92,14 +71,18 @@ public class AuthenticationService {
 
     @SneakyThrows
     public boolean isKeykeeper(String token) {
-        val properties = getSessionProperties(token);
+        if (!isValidToken(token)) {
+            return false;
+        }
+
+        val properties = getSessionProperties(token, getUid(token));
         val memberOf = properties.getAsJsonArray("memberOf");
 
         return memberOf != null && memberOf.toString().contains("keykeepers");
     }
 
     @SneakyThrows
-    public JsonObject getSessionProperties(String token) {
+    public JsonObject getSessionProperties(String token, String user) {
         val cookieStore = new BasicCookieStore();
         val cookie = new BasicClientCookie("iPlanetDirectoryPro", token);
         cookie.setDomain(".jakesmokie.ru");
@@ -110,10 +93,21 @@ public class AuthenticationService {
                 .setDefaultCookieStore(cookieStore)
                 .build();
 
-        val get = new HttpGet("http://jakesmokie.ru:8080/am/json/users/" + getUid(token));
+        val get = new HttpGet("http://jakesmokie.ru:8080/am/json/users/" + user);
 
         val entity = clientLocal.execute(get).getEntity();
         return entityToJson(entity).getAsJsonObject();
+    }
+
+    public JsonObject getUserProperties(String user) {
+        val login = login("amAdmin", "ojiy92iohdf");
+        val tokenId = login.getAsJsonPrimitive("tokenId").getAsString();
+
+        val properties = getSessionProperties(tokenId, user);
+        properties.remove("telephoneNumber");
+        properties.remove("mail");
+
+        return properties;
     }
 
     @SneakyThrows

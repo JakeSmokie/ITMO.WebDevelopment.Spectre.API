@@ -1,6 +1,5 @@
 package ru.jakesmokie.spectre;
 
-import lombok.Cleanup;
 import lombok.SneakyThrows;
 import lombok.val;
 

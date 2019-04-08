@@ -1,4 +1,7 @@
 
-nsquid:CommentedOutCodeLine7"<This block of commented-out lines of code should be removed.(Æš·Èûÿÿÿÿ8žÅÑ½•-
-Xsquid:S1191"5Use classes from the Java API instead of Sun classes.(Ÿï‰üúÿÿÿÿ8–Óª˜•-
-_squid:S11263"AReplace this if-then-else statement by a single return statement.(ÈýÄ¶8ôÜÑ½•-
+lsquid:S1192'"NDefine a constant instead of duplicating this literal "Cache-Control" 3 times.( ßç8¶¯’¿-
+qsquid:S1192&"SDefine a constant instead of duplicating this literal "Accept-API-Version" 3 times.(‹Ø…‚8¶¯’¿-
+ksquid:S1192#"MDefine a constant instead of duplicating this literal "Content-Type" 3 times.(»ýì†8¶¯’¿-
+fsquid:S1192B"HDefine a constant instead of duplicating this literal "tokenId" 3 times.(ð·ú©8¶¯’¿-
+osquid:S1192#"QDefine a constant instead of duplicating this literal "application/json" 3 times.(»ýì†8¶¯’¿-
+gsquid:S1192'"IDefine a constant instead of duplicating this literal "no-cache" 5 times.( ßç8¶¯’¿-

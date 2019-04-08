@@ -1,0 +1,6 @@
+
+isquid:S1192*"RDefine a constant instead of duplicating this literal "Not authenticated" 3 times.(Ý¬þÄ
+isquid:UselessImportCheck"FRemove this unused import 'org.eclipse.persistence.config.CacheUsage'.(ðæ©E
+fsquid:UselessImportCheck
+"BRemove this unused import 'ru.jakesmokie.spectre.entities.Planet'.(Äâ½Þ
+osquid:UselessImportCheck"FRemove this unused import 'org.eclipse.persistence.config.QueryHints'.(ïðÛ¡ýÿÿÿÿ

@@ -2,13 +2,13 @@ package ru.jakesmokie.spectre.filters;
 
 /**
  * Copyright 2012-2013 eBay Software Foundation, All Rights Reserved.
- *
+ * <p>
  * Licensed under the Apache License, Version 2.0 (the "License"); you may not
  * use this file except in compliance with the License. You may obtain a copy of
  * the License at
- *
+ * <p>
  * http://www.apache.org/licenses/LICENSE-2.0
- *
+ * <p>
  * Unless required by applicable law or agreed to in writing, software
  * distributed under the License is distributed on an "AS IS" BASIS, WITHOUT
  * WARRANTIES OR CONDITIONS OF ANY KIND, either express or implied. See the
@@ -16,25 +16,13 @@ package ru.jakesmokie.spectre.filters;
  * the License.
  */
 
+import javax.servlet.*;
+import javax.servlet.http.HttpServletRequest;
+import javax.servlet.http.HttpServletResponse;
 import java.io.IOException;
 import java.net.URI;
 import java.net.URISyntaxException;
-import java.util.Arrays;
-import java.util.Collection;
-import java.util.HashSet;
-import java.util.LinkedList;
-import java.util.List;
-import java.util.Set;
-
-import javax.servlet.Filter;
-import javax.servlet.FilterChain;
-import javax.servlet.FilterConfig;
-import javax.servlet.ServletException;
-import javax.servlet.ServletRequest;
-import javax.servlet.ServletResponse;
-import javax.servlet.annotation.WebFilter;
-import javax.servlet.http.HttpServletRequest;
-import javax.servlet.http.HttpServletResponse;
+import java.util.*;
 
 /**
  * <p>
@@ -225,6 +213,7 @@ public final class CORSFilter implements Filter {
     }
 
     // --------------------------------------------------------------- Handlers
+
     /**
      * Handles a CORS request of type {@link CORSRequestType}.SIMPLE.
      *
@@ -484,6 +473,7 @@ public final class CORSFilter implements Filter {
     }
 
     // -------------------------------------------------------- Utility methods
+
     /**
      * Decorates the {@link HttpServletRequest}, with CORS attributes.
      * <ul>
@@ -788,7 +778,7 @@ public final class CORSFilter implements Filter {
         if (data != null && data.length() > 0) {
             splits = data.split(",");
         } else {
-            splits = new String[] {};
+            splits = new String[]{};
         }
 
         Set<String> set = new HashSet<String>();
@@ -842,6 +832,7 @@ public final class CORSFilter implements Filter {
     }
 
     // -------------------------------------------------------------- Accessors
+
     /**
      * Determines if logging is enabled or not.
      *
@@ -1016,6 +1007,7 @@ public final class CORSFilter implements Filter {
             HTTP_REQUEST_ATTRIBUTE_PREFIX + "request.headers";
 
     // -------------------------------------------------------------- Constants
+
     /**
      * Enumerates varies types of CORS requests. Also, provides utility methods
      * to determine the request type.

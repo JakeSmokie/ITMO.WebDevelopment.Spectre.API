@@ -1,15 +1,12 @@
 package ru.jakesmokie.spectre.restapi.keykeepers.races;
 
-import lombok.Data;
 import lombok.SneakyThrows;
 import lombok.val;
 import org.eclipse.persistence.config.CacheUsage;
 import org.eclipse.persistence.config.QueryHints;
 import ru.jakesmokie.spectre.beans.AuthenticationService;
 import ru.jakesmokie.spectre.beans.DatabaseService;
-import ru.jakesmokie.spectre.entities.Planet;
 import ru.jakesmokie.spectre.entities.Race;
-import ru.jakesmokie.spectre.restapi.keykeepers.planets.entities.PlanetAddingParameters;
 import ru.jakesmokie.spectre.restapi.keykeepers.races.entities.RaceAddingParameters;
 import ru.jakesmokie.spectre.restapi.keykeepers.races.entities.RaceUpdatingParameters;
 import ru.jakesmokie.spectre.restapi.responses.ApiResponse;
@@ -22,7 +19,6 @@ import javax.ws.rs.*;
 import javax.ws.rs.core.MediaType;
 
 @Path("/keykeepers/races")
-@Data
 @Singleton
 public class RacesResource {
     private final FailedApiResponse notAKeykeeperError =
@@ -34,7 +30,6 @@ public class RacesResource {
     @EJB
     private DatabaseService databaseService;
 
-
     @Path("/getraces")
     @GET
     @Produces(MediaType.APPLICATION_JSON)
@@ -42,7 +37,7 @@ public class RacesResource {
     public ApiResponse get(
             @QueryParam("token") String token
     ) {
-        if (!auth.isKeykeeper(token)) {
+        if (!auth.isValidToken(token)) {
             return notAKeykeeperError;
         }
 
@@ -53,6 +48,7 @@ public class RacesResource {
 
         return new SuccessfulApiResponse(races);
     }
+
 
     @Path("/savename")
     @POST

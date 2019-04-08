@@ -1,14 +1,11 @@
 package ru.jakesmokie.spectre.beans;
 
-import lombok.Cleanup;
 import lombok.SneakyThrows;
-import lombok.val;
 
 import javax.ejb.Singleton;
 import javax.persistence.EntityManager;
 import javax.persistence.EntityManagerFactory;
 import javax.persistence.Persistence;
-import java.sql.DriverManager;
 
 @Singleton
 public class DatabaseService {

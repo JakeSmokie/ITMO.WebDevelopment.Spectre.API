@@ -13,6 +13,9 @@ public class Station {
     private int id;
     private String name;
 
+    @Column(name = "planet_id", updatable = false, insertable = false)
+    private int planetId;
+
     @ManyToOne
     @SkipSerialisation
     private Planet planet;

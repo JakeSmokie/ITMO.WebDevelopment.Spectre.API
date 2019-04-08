@@ -1,9 +1,9 @@
 package ru.jakesmokie.spectre.restapi.auth;
 
 import lombok.val;
-import org.eclipse.persistence.annotations.Cache;
 import ru.jakesmokie.spectre.beans.AuthenticationService;
 import ru.jakesmokie.spectre.restapi.responses.ApiResponse;
+import ru.jakesmokie.spectre.restapi.responses.FailedApiResponse;
 import ru.jakesmokie.spectre.restapi.responses.SuccessfulApiResponse;
 
 import javax.ejb.EJB;
@@ -58,9 +58,22 @@ public class AuthenticationResource {
     public SuccessfulApiResponse getAttributes(
             @QueryParam("token") String token
     ) {
-        val response = auth.getSessionProperties(token);
+        val response = auth.getSessionProperties(token, auth.getUid(token));
         return new SuccessfulApiResponse(response);
     }
 
+    @Path("/getuserattributes")
+    @POST
+    @Produces(MediaType.APPLICATION_JSON)
+    public ApiResponse getUserAttributes(
+            @QueryParam("token") String token,
+            @QueryParam("user") String user
+    ) {
+        if (!auth.isValidToken(token)) {
+            return new FailedApiResponse("Not authorized");
+        }
 
+        val response = auth.getUserProperties(user);
+        return new SuccessfulApiResponse(response);
+    }
 }

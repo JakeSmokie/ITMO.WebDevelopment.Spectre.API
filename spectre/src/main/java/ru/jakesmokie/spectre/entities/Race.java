@@ -4,7 +4,6 @@ import lombok.Data;
 import ru.jakesmokie.spectre.providers.gson.SkipSerialisation;
 
 import javax.persistence.*;
-import java.util.ArrayList;
 import java.util.List;
 
 @Entity

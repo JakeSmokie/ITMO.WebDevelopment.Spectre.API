@@ -11,7 +11,6 @@ public class Travel {
     @Id
     @GeneratedValue(strategy = GenerationType.IDENTITY)
     private int id;
-    // TODO: Fields
 
     @ManyToOne
     private Tourist tourist;
@@ -25,5 +24,12 @@ public class Travel {
     private Date date;
 
     public Travel() {
+    }
+
+    public Travel(Tourist tourist, Station origin, Station destination, Date date) {
+        this.tourist = tourist;
+        this.origin = origin;
+        this.destination = destination;
+        this.date = date;
     }
 }
